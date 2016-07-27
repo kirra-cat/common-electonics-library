@@ -2305,7 +2305,7 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM26480">
+<deviceset name="LM26480" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LM26480" x="0" y="0"/>
 </gates>
