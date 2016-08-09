@@ -1743,112 +1743,112 @@ MAX3223-MAX3243.pdf</description>
 <text x="0" y="48.26" size="3.81" layer="94" align="center">Tiva-C</text>
 </symbol>
 <symbol name="TM4C1294">
-<pin name="PD0/AIN15/I2C7SCL/SSI2XDAT1/T0CCP0" x="-83.82" y="22.86" length="short"/>
-<pin name="PD1/AIN14/I2C7SDA/SSI2XDAT0/T0CCP1" x="-83.82" y="20.32" length="short"/>
-<pin name="PD2/AIN13/I2C8SCL/SSI2FSS/T1CCP0" x="-83.82" y="17.78" length="short"/>
-<pin name="PD3/AIN12/I2C8SDA/SSI2CLK/T1CCP1" x="-83.82" y="15.24" length="short"/>
-<pin name="PQ0/EPI0S20/SSI3CLK" x="83.82" y="-35.56" length="short" rot="R180"/>
-<pin name="PQ1/EPI0S21/SSI3FSS" x="83.82" y="-38.1" length="short" rot="R180"/>
+<pin name="PD0/AIN15/I2C7SCL/SSI2XDAT1/T0CCP0" x="-91.44" y="22.86" length="short"/>
+<pin name="PD1/AIN14/I2C7SDA/SSI2XDAT0/T0CCP1" x="-91.44" y="20.32" length="short"/>
+<pin name="PD2/AIN13/I2C8SCL/SSI2FSS/T1CCP0" x="-91.44" y="17.78" length="short"/>
+<pin name="PD3/AIN12/I2C8SDA/SSI2CLK/T1CCP1" x="-91.44" y="15.24" length="short"/>
+<pin name="PQ0/EPI0S20/SSI3CLK" x="91.44" y="-35.56" length="short" rot="R180"/>
+<pin name="PQ1/EPI0S21/SSI3FSS" x="91.44" y="-38.1" length="short" rot="R180"/>
 <pin name="VDDA" x="15.24" y="81.28" length="short" direction="pwr" rot="R270"/>
-<pin name="VREFAP" x="83.82" y="-58.42" length="short" direction="pas" rot="R180"/>
+<pin name="VREFAP" x="91.44" y="-58.42" length="short" direction="pas" rot="R180"/>
 <pin name="GNDA" x="-17.78" y="-78.74" length="short" direction="pwr" rot="R90"/>
-<pin name="PQ2/EPI0S22/SSI3XDAT0" x="83.82" y="-40.64" length="short" rot="R180"/>
-<pin name="PE3/AIN0/U1DTR" x="-83.82" y="-7.62" length="short"/>
-<pin name="PE2/AIN1/U1DCD" x="-83.82" y="-5.08" length="short"/>
-<pin name="PE1/AIN2/U1DSR" x="-83.82" y="-2.54" length="short"/>
-<pin name="PE0/AIN3/U1RTS" x="-83.82" y="0" length="short"/>
-<pin name="PK0/AIN16/EPI0S0/U4RX" x="83.82" y="68.58" length="short" rot="R180"/>
-<pin name="PK1/AIN17/EPI0S1/U4TX" x="83.82" y="66.04" length="short" rot="R180"/>
-<pin name="PK2/AIN18/EPI0S2/U4RTS" x="83.82" y="63.5" length="short" rot="R180"/>
-<pin name="PK3/AIN19/EPI0S3/U4CTS" x="83.82" y="60.96" length="short" rot="R180"/>
-<pin name="PC7/!COMP0!/EPI0S4/U5TX" x="-83.82" y="27.94" length="short"/>
-<pin name="PC6/COMP0/EPI0S5/U5RX" x="-83.82" y="30.48" length="short"/>
-<pin name="PC5/COMP1/EPI0S6/RTCCLK/U7TX" x="-83.82" y="33.02" length="short"/>
-<pin name="PC4/!COMP1!/EPI0S7/U7RX" x="-83.82" y="35.56" length="short"/>
-<pin name="PQ3/EPI0S23/SSI3XDAT1" x="83.82" y="-43.18" length="short" rot="R180"/>
-<pin name="PH0/EPI0S0/U0RTS" x="-83.82" y="-40.64" length="short"/>
-<pin name="PH1/EPI0S1/U0CTS" x="-83.82" y="-43.18" length="short"/>
-<pin name="PH2/EPI0S2/U0DCD" x="-83.82" y="-45.72" length="short"/>
-<pin name="PH3/EPI0S3/U0DSR" x="-83.82" y="-48.26" length="short"/>
-<pin name="PA0/CAN0RX/I2C9SCL/T0CCP0/U0RX" x="-83.82" y="76.2" length="short"/>
-<pin name="PA1/CAN0TX/I2C9SDA/T0CCP1/U0TX" x="-83.82" y="73.66" length="short"/>
-<pin name="PA2/I2C8SCL/SSI0CLK/T1CCP0/U4RX" x="-83.82" y="71.12" length="short"/>
-<pin name="PA3/I2C8SDA/SSI0FSS/T1CCP1/U4TX" x="-83.82" y="68.58" length="short"/>
-<pin name="PA4/I2C7SCL/SSI0XDAT0/T2CCP0/U3RX" x="-83.82" y="66.04" length="short"/>
-<pin name="PA5/I2C7SDA/SSI0XDAT1/T2CCP1/U3TX" x="-83.82" y="63.5" length="short"/>
-<pin name="PA6/SSI0XDAT2/T3CCP0/U2RX/USB0EPEN" x="-83.82" y="60.96" length="short"/>
-<pin name="PA7/SSI0XDAT3/T3CCP1/U2TX/USB0PFLT" x="-83.82" y="58.42" length="short"/>
-<pin name="PF0/EN0LED0/M0PWM0/SSI3XDAT1/TRD2" x="-83.82" y="-17.78" length="short"/>
-<pin name="PF1/EN0LED2/M0PWM1/SSI3XDAT0/TRD1" x="-83.82" y="-20.32" length="short"/>
-<pin name="PF2/M0PWM2/SSI3FSS/TRD0" x="-83.82" y="-22.86" length="short"/>
-<pin name="PF3/M0PWM3/SSI3CLK/TRCLK" x="-83.82" y="-25.4" length="short"/>
-<pin name="PF4/EN0LED1/M0FAULT0/SSI3XDAT2/TRD3" x="-83.82" y="-27.94" length="short"/>
-<pin name="PG0/EN0PPS/EPI0S11/I2C1SCL/M0PWM4" x="-83.82" y="-33.02" length="short"/>
-<pin name="PG1/EPI0S10/I2C1SDA/M0PWM5" x="-83.82" y="-35.56" length="short"/>
-<pin name="EN0RXIN" x="-83.82" y="-53.34" length="short" direction="pas"/>
-<pin name="EN0RXIP" x="-83.82" y="-58.42" length="short" direction="pas"/>
-<pin name="EN0TXON" x="-83.82" y="-63.5" length="short" direction="pas"/>
-<pin name="EN0TXOP" x="-83.82" y="-68.58" length="short" direction="pas"/>
-<pin name="RBIAS" x="-83.82" y="-73.66" length="short" direction="pas"/>
-<pin name="PK7/EPI0S24/I2C4SDA/RTCCLK/U0RI" x="83.82" y="50.8" length="short" rot="R180"/>
-<pin name="PK6/EN0LED1/EPI0S25/I2C4SCL/M0FAULT1" x="83.82" y="53.34" length="short" rot="R180"/>
-<pin name="PK5/EN0LED2/EPI0S31/I2C3SDA/M0PWM7" x="83.82" y="55.88" length="short" rot="R180"/>
-<pin name="PK4/EN0LED0/EPI0S32/I2C3SCL/M0PWM6" x="83.82" y="58.42" length="short" rot="R180"/>
-<pin name="!WAKE" x="83.82" y="-55.88" length="short" direction="pas" rot="R180"/>
-<pin name="!HIB" x="83.82" y="-53.34" length="short" direction="pas" rot="R180"/>
-<pin name="XOSC0" x="83.82" y="-63.5" length="short" direction="pas" rot="R180"/>
-<pin name="XOSC1" x="83.82" y="-66.04" length="short" direction="pas" rot="R180"/>
+<pin name="PQ2/EPI0S22/SSI3XDAT0" x="91.44" y="-40.64" length="short" rot="R180"/>
+<pin name="PE3/AIN0/U1DTR" x="-91.44" y="-7.62" length="short"/>
+<pin name="PE2/AIN1/U1DCD" x="-91.44" y="-5.08" length="short"/>
+<pin name="PE1/AIN2/U1DSR" x="-91.44" y="-2.54" length="short"/>
+<pin name="PE0/AIN3/U1RTS" x="-91.44" y="0" length="short"/>
+<pin name="PK0/AIN16/EPI0S0/U4RX" x="91.44" y="68.58" length="short" rot="R180"/>
+<pin name="PK1/AIN17/EPI0S1/U4TX" x="91.44" y="66.04" length="short" rot="R180"/>
+<pin name="PK2/AIN18/EPI0S2/U4RTS" x="91.44" y="63.5" length="short" rot="R180"/>
+<pin name="PK3/AIN19/EPI0S3/U4CTS" x="91.44" y="60.96" length="short" rot="R180"/>
+<pin name="PC7/!COMP0!/EPI0S4/U5TX" x="-91.44" y="27.94" length="short"/>
+<pin name="PC6/COMP0/EPI0S5/U5RX" x="-91.44" y="30.48" length="short"/>
+<pin name="PC5/COMP1/EPI0S6/RTCCLK/U7TX" x="-91.44" y="33.02" length="short"/>
+<pin name="PC4/!COMP1!/EPI0S7/U7RX" x="-91.44" y="35.56" length="short"/>
+<pin name="PQ3/EPI0S23/SSI3XDAT1" x="91.44" y="-43.18" length="short" rot="R180"/>
+<pin name="PH0/EPI0S0/U0RTS" x="-91.44" y="-40.64" length="short"/>
+<pin name="PH1/EPI0S1/U0CTS" x="-91.44" y="-43.18" length="short"/>
+<pin name="PH2/EPI0S2/U0DCD" x="-91.44" y="-45.72" length="short"/>
+<pin name="PH3/EPI0S3/U0DSR" x="-91.44" y="-48.26" length="short"/>
+<pin name="PA0/CAN0RX/I2C9SCL/T0CCP0/U0RX" x="-91.44" y="76.2" length="short"/>
+<pin name="PA1/CAN0TX/I2C9SDA/T0CCP1/U0TX" x="-91.44" y="73.66" length="short"/>
+<pin name="PA2/I2C8SCL/SSI0CLK/T1CCP0/U4RX" x="-91.44" y="71.12" length="short"/>
+<pin name="PA3/I2C8SDA/SSI0FSS/T1CCP1/U4TX" x="-91.44" y="68.58" length="short"/>
+<pin name="PA4/I2C7SCL/SSI0XDAT0/T2CCP0/U3RX" x="-91.44" y="66.04" length="short"/>
+<pin name="PA5/I2C7SDA/SSI0XDAT1/T2CCP1/U3TX" x="-91.44" y="63.5" length="short"/>
+<pin name="PA6/SSI0XDAT2/T3CCP0/U2RX/USB0EPEN" x="-91.44" y="60.96" length="short"/>
+<pin name="PA7/SSI0XDAT3/T3CCP1/U2TX/USB0PFLT" x="-91.44" y="58.42" length="short"/>
+<pin name="PF0/EN0LED0/M0PWM0/SSI3XDAT1/TRD2" x="-91.44" y="-17.78" length="short"/>
+<pin name="PF1/EN0LED2/M0PWM1/SSI3XDAT0/TRD1" x="-91.44" y="-20.32" length="short"/>
+<pin name="PF2/M0PWM2/SSI3FSS/TRD0" x="-91.44" y="-22.86" length="short"/>
+<pin name="PF3/M0PWM3/SSI3CLK/TRCLK" x="-91.44" y="-25.4" length="short"/>
+<pin name="PF4/EN0LED1/M0FAULT0/SSI3XDAT2/TRD3" x="-91.44" y="-27.94" length="short"/>
+<pin name="PG0/EN0PPS/EPI0S11/I2C1SCL/M0PWM4" x="-91.44" y="-33.02" length="short"/>
+<pin name="PG1/EPI0S10/I2C1SDA/M0PWM5" x="-91.44" y="-35.56" length="short"/>
+<pin name="EN0RXIN" x="-91.44" y="-53.34" length="short" direction="pas"/>
+<pin name="EN0RXIP" x="-91.44" y="-58.42" length="short" direction="pas"/>
+<pin name="EN0TXON" x="-91.44" y="-63.5" length="short" direction="pas"/>
+<pin name="EN0TXOP" x="-91.44" y="-68.58" length="short" direction="pas"/>
+<pin name="RBIAS" x="-91.44" y="-73.66" length="short" direction="pas"/>
+<pin name="PK7/EPI0S24/I2C4SDA/RTCCLK/U0RI" x="91.44" y="50.8" length="short" rot="R180"/>
+<pin name="PK6/EN0LED1/EPI0S25/I2C4SCL/M0FAULT1" x="91.44" y="53.34" length="short" rot="R180"/>
+<pin name="PK5/EN0LED2/EPI0S31/I2C3SDA/M0PWM7" x="91.44" y="55.88" length="short" rot="R180"/>
+<pin name="PK4/EN0LED0/EPI0S32/I2C3SCL/M0PWM6" x="91.44" y="58.42" length="short" rot="R180"/>
+<pin name="!WAKE" x="91.44" y="-55.88" length="short" direction="pas" rot="R180"/>
+<pin name="!HIB" x="91.44" y="-53.34" length="short" direction="pas" rot="R180"/>
+<pin name="XOSC0" x="91.44" y="-63.5" length="short" direction="pas" rot="R180"/>
+<pin name="XOSC1" x="91.44" y="-66.04" length="short" direction="pas" rot="R180"/>
 <pin name="VBAT" x="-35.56" y="81.28" length="short" direction="pas" rot="R270"/>
-<pin name="RST" x="83.82" y="-50.8" length="short" direction="in" rot="R180"/>
-<pin name="PM7/T5CCP1/TMPR0/U0RI" x="83.82" y="5.08" length="short" rot="R180"/>
-<pin name="PM6/T5CCP0/TMPR1/U0DSR" x="83.82" y="7.62" length="short" rot="R180"/>
-<pin name="PM5/T4CCP1/TMPR2/U0DCD" x="83.82" y="10.16" length="short" rot="R180"/>
-<pin name="PM4/T4CCP0/TMPR3/U0CTS" x="83.82" y="12.7" length="short" rot="R180"/>
-<pin name="PM3/EPI0S12/T3CCP1" x="83.82" y="15.24" length="short" rot="R180"/>
-<pin name="PM2/EPI0S13/T3CCP0" x="83.82" y="17.78" length="short" rot="R180"/>
-<pin name="PM1/EPI0S14/T2CCP1" x="83.82" y="20.32" length="short" rot="R180"/>
-<pin name="PM0/EPI0S15/T2CCP0" x="83.82" y="22.86" length="short" rot="R180"/>
-<pin name="PL0/EPI0S16/I2C2SDA/M0FAULT3/USB0D0" x="83.82" y="45.72" length="short" rot="R180"/>
-<pin name="PL1/EPI0S17/I2C2SCL/PHA0/USB0D1" x="83.82" y="43.18" length="short" rot="R180"/>
-<pin name="PL2/EPI0S18/PHB0/USB0D2" x="83.82" y="40.64" length="short" rot="R180"/>
-<pin name="PL3/EPI0S19/IDX0/USB0D3" x="83.82" y="38.1" length="short" rot="R180"/>
-<pin name="PL4/EPI0S26/T0CCP0/USB0D4" x="83.82" y="35.56" length="short" rot="R180"/>
-<pin name="PL5/EPI0S33/T0CCP1/USB0D5" x="83.82" y="33.02" length="short" rot="R180"/>
-<pin name="OSC0" x="83.82" y="-71.12" length="short" direction="pas" function="clk" rot="R180"/>
-<pin name="OSC1" x="83.82" y="-73.66" length="short" direction="pas" rot="R180"/>
-<pin name="PB2/EPI0S27/I2C0SCL/T5CCP0/USB0STP" x="-83.82" y="48.26" length="short"/>
-<pin name="PB3/EPI0S28/I2C0SDA/T5CCP1/USB0CLK" x="-83.82" y="45.72" length="short"/>
-<pin name="PL7/T1CCP1/USB0DM" x="83.82" y="27.94" length="short" rot="R180"/>
-<pin name="PL6/T1CCP0/USB0DP" x="83.82" y="30.48" length="short" rot="R180"/>
-<pin name="PB0/CAN1RX/T4CCP0/U1RX/USB0ID" x="-83.82" y="53.34" length="short"/>
-<pin name="PB1/CAN1TX/T4CCP1/U1TX/USB0VBUS" x="-83.82" y="50.8" length="short"/>
+<pin name="RST" x="91.44" y="-50.8" length="short" direction="in" rot="R180"/>
+<pin name="PM7/T5CCP1/TMPR0/U0RI" x="91.44" y="5.08" length="short" rot="R180"/>
+<pin name="PM6/T5CCP0/TMPR1/U0DSR" x="91.44" y="7.62" length="short" rot="R180"/>
+<pin name="PM5/T4CCP1/TMPR2/U0DCD" x="91.44" y="10.16" length="short" rot="R180"/>
+<pin name="PM4/T4CCP0/TMPR3/U0CTS" x="91.44" y="12.7" length="short" rot="R180"/>
+<pin name="PM3/EPI0S12/T3CCP1" x="91.44" y="15.24" length="short" rot="R180"/>
+<pin name="PM2/EPI0S13/T3CCP0" x="91.44" y="17.78" length="short" rot="R180"/>
+<pin name="PM1/EPI0S14/T2CCP1" x="91.44" y="20.32" length="short" rot="R180"/>
+<pin name="PM0/EPI0S15/T2CCP0" x="91.44" y="22.86" length="short" rot="R180"/>
+<pin name="PL0/EPI0S16/I2C2SDA/M0FAULT3/USB0D0" x="91.44" y="45.72" length="short" rot="R180"/>
+<pin name="PL1/EPI0S17/I2C2SCL/PHA0/USB0D1" x="91.44" y="43.18" length="short" rot="R180"/>
+<pin name="PL2/EPI0S18/PHB0/USB0D2" x="91.44" y="40.64" length="short" rot="R180"/>
+<pin name="PL3/EPI0S19/IDX0/USB0D3" x="91.44" y="38.1" length="short" rot="R180"/>
+<pin name="PL4/EPI0S26/T0CCP0/USB0D4" x="91.44" y="35.56" length="short" rot="R180"/>
+<pin name="PL5/EPI0S33/T0CCP1/USB0D5" x="91.44" y="33.02" length="short" rot="R180"/>
+<pin name="OSC0" x="91.44" y="-71.12" length="short" direction="pas" function="clk" rot="R180"/>
+<pin name="OSC1" x="91.44" y="-73.66" length="short" direction="pas" rot="R180"/>
+<pin name="PB2/EPI0S27/I2C0SCL/T5CCP0/USB0STP" x="-91.44" y="48.26" length="short"/>
+<pin name="PB3/EPI0S28/I2C0SDA/T5CCP1/USB0CLK" x="-91.44" y="45.72" length="short"/>
+<pin name="PL7/T1CCP1/USB0DM" x="91.44" y="27.94" length="short" rot="R180"/>
+<pin name="PL6/T1CCP0/USB0DP" x="91.44" y="30.48" length="short" rot="R180"/>
+<pin name="PB0/CAN1RX/T4CCP0/U1RX/USB0ID" x="-91.44" y="53.34" length="short"/>
+<pin name="PB1/CAN1TX/T4CCP1/U1TX/USB0VBUS" x="-91.44" y="50.8" length="short"/>
 <pin name="TDO/SWO" x="35.56" y="81.28" length="short" direction="out" rot="R270"/>
 <pin name="TDI" x="20.32" y="81.28" length="short" direction="in" rot="R270"/>
 <pin name="TMS/SWDIO" x="25.4" y="81.28" length="short" direction="in" rot="R270"/>
 <pin name="TCK/SWCLK" x="30.48" y="81.28" length="short" direction="in" rot="R270"/>
-<pin name="PQ4/DIVSCLK/U1RX" x="83.82" y="-45.72" length="short" rot="R180"/>
-<pin name="PP2/EPI0S29/U0DTR/USB0NXT" x="83.82" y="-22.86" length="short" rot="R180"/>
-<pin name="PP3/EPI0S30/U0DCD/U1CTS/USB0DIR" x="83.82" y="-25.4" length="short" rot="R180"/>
-<pin name="PP4/U0DSR/U3RTS/USB0D7" x="83.82" y="-27.94" length="short" rot="R180"/>
-<pin name="PP5/I2C2SCL/U3CTS/USB0D6" x="83.82" y="-30.48" length="short" rot="R180"/>
-<pin name="PN0/U1RTS" x="83.82" y="0" length="short" rot="R180"/>
-<pin name="PN1/U1CTS" x="83.82" y="-2.54" length="short" rot="R180"/>
-<pin name="PN2/EPI0S29/U1DCD/U2RTS" x="83.82" y="-5.08" length="short" rot="R180"/>
-<pin name="PN3/EPI0S30/U1DSR/U2CTS" x="83.82" y="-7.62" length="short" rot="R180"/>
-<pin name="PN4/EPI0S34/I2C2SDA/U1DTR/U3RTS" x="83.82" y="-10.16" length="short" rot="R180"/>
-<pin name="PN5/EPI0S35/I2C2SCL/U1RI/U3CTS" x="83.82" y="-12.7" length="short" rot="R180"/>
-<pin name="PJ0/EN0PPS/U3RX" x="83.82" y="76.2" length="short" rot="R180"/>
-<pin name="PJ1/U3TX" x="83.82" y="73.66" length="short" rot="R180"/>
-<pin name="PP0/COMP2/SSI3XDAT2/U6RX" x="83.82" y="-17.78" length="short" rot="R180"/>
-<pin name="PP1/!COMP2!/SSI3XDAT3/U6TX" x="83.82" y="-20.32" length="short" rot="R180"/>
-<pin name="PB5/AIN11/I2C5SDA/SSI1CLK/U0RTS" x="-83.82" y="40.64" length="short"/>
-<pin name="PB4/AIN10/I2C5SCL/SSI1FSS/U0CTS" x="-83.82" y="43.18" length="short"/>
-<pin name="PE4/AIN9/SSI1XDAT0/U1RI" x="-83.82" y="-10.16" length="short"/>
-<pin name="PE5/AIN8/SSI1XDAT1" x="-83.82" y="-12.7" length="short"/>
-<pin name="PD4/AIN7/SSI1XDAT2/T3CCP0/U2RX" x="-83.82" y="12.7" length="short"/>
-<pin name="PD5/AIN6/SSI1XDAT3/T3CCP1/U2TX" x="-83.82" y="10.16" length="short"/>
-<pin name="PD6/AIN5/SSI2XDAT3/T4CCP0/USB0EPEN" x="-83.82" y="7.62" length="short"/>
-<pin name="PD7/AIN4/SSI2XDAT2/T4CCP1/USB0PFLT" x="-83.82" y="5.08" length="short"/>
+<pin name="PQ4/DIVSCLK/U1RX" x="91.44" y="-45.72" length="short" rot="R180"/>
+<pin name="PP2/EPI0S29/U0DTR/USB0NXT" x="91.44" y="-22.86" length="short" rot="R180"/>
+<pin name="PP3/EPI0S30/U0DCD/U1CTS/USB0DIR" x="91.44" y="-25.4" length="short" rot="R180"/>
+<pin name="PP4/U0DSR/U3RTS/USB0D7" x="91.44" y="-27.94" length="short" rot="R180"/>
+<pin name="PP5/I2C2SCL/U3CTS/USB0D6" x="91.44" y="-30.48" length="short" rot="R180"/>
+<pin name="PN0/U1RTS" x="91.44" y="0" length="short" rot="R180"/>
+<pin name="PN1/U1CTS" x="91.44" y="-2.54" length="short" rot="R180"/>
+<pin name="PN2/EPI0S29/U1DCD/U2RTS" x="91.44" y="-5.08" length="short" rot="R180"/>
+<pin name="PN3/EPI0S30/U1DSR/U2CTS" x="91.44" y="-7.62" length="short" rot="R180"/>
+<pin name="PN4/EPI0S34/I2C2SDA/U1DTR/U3RTS" x="91.44" y="-10.16" length="short" rot="R180"/>
+<pin name="PN5/EPI0S35/I2C2SCL/U1RI/U3CTS" x="91.44" y="-12.7" length="short" rot="R180"/>
+<pin name="PJ0/EN0PPS/U3RX" x="91.44" y="76.2" length="short" rot="R180"/>
+<pin name="PJ1/U3TX" x="91.44" y="73.66" length="short" rot="R180"/>
+<pin name="PP0/COMP2/SSI3XDAT2/U6RX" x="91.44" y="-17.78" length="short" rot="R180"/>
+<pin name="PP1/!COMP2!/SSI3XDAT3/U6TX" x="91.44" y="-20.32" length="short" rot="R180"/>
+<pin name="PB5/AIN11/I2C5SDA/SSI1CLK/U0RTS" x="-91.44" y="40.64" length="short"/>
+<pin name="PB4/AIN10/I2C5SCL/SSI1FSS/U0CTS" x="-91.44" y="43.18" length="short"/>
+<pin name="PE4/AIN9/SSI1XDAT0/U1RI" x="-91.44" y="-10.16" length="short"/>
+<pin name="PE5/AIN8/SSI1XDAT1" x="-91.44" y="-12.7" length="short"/>
+<pin name="PD4/AIN7/SSI1XDAT2/T3CCP0/U2RX" x="-91.44" y="12.7" length="short"/>
+<pin name="PD5/AIN6/SSI1XDAT3/T3CCP1/U2TX" x="-91.44" y="10.16" length="short"/>
+<pin name="PD6/AIN5/SSI2XDAT3/T4CCP0/USB0EPEN" x="-91.44" y="7.62" length="short"/>
+<pin name="PD7/AIN4/SSI2XDAT2/T4CCP1/USB0PFLT" x="-91.44" y="5.08" length="short"/>
 <pin name="GND@0" x="-10.16" y="-78.74" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@1" x="-5.08" y="-78.74" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@2" x="0" y="-78.74" length="short" direction="pwr" rot="R90"/>
@@ -1873,35 +1873,35 @@ MAX3223-MAX3243.pdf</description>
 <pin name="VDDC@1" x="10.16" y="81.28" length="short" direction="pwr" rot="R270"/>
 <text x="50.8" y="88.9" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="50.8" y="86.36" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<wire x1="-81.28" y1="-76.2" x2="-81.28" y2="-50.8" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-50.8" x2="-81.28" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-38.1" x2="-81.28" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-30.48" x2="-81.28" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-15.24" x2="-81.28" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="2.54" x2="-81.28" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="25.4" x2="-81.28" y2="38.1" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="38.1" x2="-81.28" y2="55.88" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="55.88" x2="-81.28" y2="78.74" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="78.74" x2="-38.1" y2="78.74" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-76.2" x2="-88.9" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-50.8" x2="-88.9" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-38.1" x2="-88.9" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-30.48" x2="-88.9" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-15.24" x2="-88.9" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="2.54" x2="-88.9" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="25.4" x2="-88.9" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="38.1" x2="-88.9" y2="55.88" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="55.88" x2="-88.9" y2="78.74" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="78.74" x2="-38.1" y2="78.74" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="78.74" x2="-33.02" y2="78.74" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="78.74" x2="5.08" y2="78.74" width="0.254" layer="94"/>
 <wire x1="5.08" y1="78.74" x2="12.7" y2="78.74" width="0.254" layer="94"/>
 <wire x1="12.7" y1="78.74" x2="17.78" y2="78.74" width="0.254" layer="94"/>
 <wire x1="17.78" y1="78.74" x2="38.1" y2="78.74" width="0.254" layer="94"/>
-<wire x1="38.1" y1="78.74" x2="81.28" y2="78.74" width="0.254" layer="94"/>
-<wire x1="81.28" y1="78.74" x2="81.28" y2="71.12" width="0.254" layer="94"/>
-<wire x1="81.28" y1="71.12" x2="81.28" y2="48.26" width="0.254" layer="94"/>
-<wire x1="81.28" y1="48.26" x2="81.28" y2="25.4" width="0.254" layer="94"/>
-<wire x1="81.28" y1="25.4" x2="81.28" y2="2.54" width="0.254" layer="94"/>
-<wire x1="81.28" y1="2.54" x2="81.28" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-15.24" x2="81.28" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-33.02" x2="81.28" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-48.26" x2="81.28" y2="-60.96" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-60.96" x2="81.28" y2="-68.58" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-68.58" x2="81.28" y2="-76.2" width="0.254" layer="94"/>
-<wire x1="81.28" y1="-76.2" x2="38.1" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="38.1" y1="78.74" x2="88.9" y2="78.74" width="0.254" layer="94"/>
+<wire x1="88.9" y1="78.74" x2="88.9" y2="71.12" width="0.254" layer="94"/>
+<wire x1="88.9" y1="71.12" x2="88.9" y2="48.26" width="0.254" layer="94"/>
+<wire x1="88.9" y1="48.26" x2="88.9" y2="25.4" width="0.254" layer="94"/>
+<wire x1="88.9" y1="25.4" x2="88.9" y2="2.54" width="0.254" layer="94"/>
+<wire x1="88.9" y1="2.54" x2="88.9" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-15.24" x2="88.9" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-33.02" x2="88.9" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-48.26" x2="88.9" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-60.96" x2="88.9" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-68.58" x2="88.9" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-76.2" x2="38.1" y2="-76.2" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-76.2" x2="-38.1" y2="-76.2" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="-76.2" x2="-81.28" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-76.2" x2="-88.9" y2="-76.2" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="-76.2" x2="-38.1" y2="-60.96" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="-60.96" x2="-38.1" y2="-50.8" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="-50.8" x2="-38.1" y2="-38.1" width="0.254" layer="94"/>
@@ -1916,18 +1916,18 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-33.02" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="5.08" y1="63.5" x2="12.7" y2="63.5" width="0.254" layer="94"/>
 <wire x1="12.7" y1="63.5" x2="17.78" y2="63.5" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-50.8" x2="-38.1" y2="-50.8" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-68.58" x2="81.28" y2="-68.58" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-60.96" x2="81.28" y2="-60.96" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-48.26" x2="81.28" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-33.02" x2="81.28" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-15.24" x2="81.28" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="38.1" y1="2.54" x2="81.28" y2="2.54" width="0.254" layer="94"/>
-<wire x1="38.1" y1="25.4" x2="81.28" y2="25.4" width="0.254" layer="94"/>
-<wire x1="38.1" y1="48.26" x2="81.28" y2="48.26" width="0.254" layer="94"/>
-<wire x1="38.1" y1="71.12" x2="81.28" y2="71.12" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="55.88" x2="-38.1" y2="55.88" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="38.1" x2="-38.1" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-50.8" x2="-38.1" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-68.58" x2="88.9" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-60.96" x2="88.9" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-48.26" x2="88.9" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-33.02" x2="88.9" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-15.24" x2="88.9" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="38.1" y1="2.54" x2="88.9" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="25.4" x2="88.9" y2="25.4" width="0.254" layer="94"/>
+<wire x1="38.1" y1="48.26" x2="88.9" y2="48.26" width="0.254" layer="94"/>
+<wire x1="38.1" y1="71.12" x2="88.9" y2="71.12" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="55.88" x2="-38.1" y2="55.88" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="38.1" x2="-38.1" y2="38.1" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="63.5" x2="-38.1" y2="78.74" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="63.5" x2="-33.02" y2="78.74" width="0.254" layer="94"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="78.74" width="0.254" layer="94"/>
@@ -1940,11 +1940,11 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="38.1" y1="-60.96" x2="38.1" y2="-76.2" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-60.96" x2="-38.1" y2="-60.96" width="0.254" layer="94"/>
 <wire x1="17.78" y1="63.5" x2="38.1" y2="63.5" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="25.4" x2="-38.1" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="2.54" x2="-38.1" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-15.24" x2="-38.1" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-30.48" x2="-38.1" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-38.1" x2="-38.1" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="25.4" x2="-38.1" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="2.54" x2="-38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-15.24" x2="-38.1" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-30.48" x2="-38.1" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-88.9" y1="-38.1" x2="-38.1" y2="-38.1" width="0.254" layer="94"/>
 <text x="0" y="45.72" size="3.81" layer="94" align="center">Tiva™ C 
 ARM Cortex-M4F
 Microcontroller

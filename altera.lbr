@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2592,6 +2592,34 @@ Source: EP3C25F256.txt</description>
 <text x="-8.5" y="9.135" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.5" y="-10.405" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOIC8">
+<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="5CEFA7F23_BANK3A">
@@ -4832,8 +4860,8 @@ Source: EP3C25F256.txt</description>
 <pin name="GND@35" x="20.32" y="-121.92" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@36" x="22.86" y="-121.92" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@37" x="25.4" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<text x="91.44" y="124.46" size="1.778" layer="95">&gt;NAME</text>
-<text x="91.44" y="121.92" size="1.778" layer="96">&gt;VALUE</text>
+<text x="91.44" y="124.46" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="91.44" y="121.92" size="1.778" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-116.84" y1="119.38" x2="-81.28" y2="119.38" width="0.254" layer="94"/>
 <wire x1="-81.28" y1="119.38" x2="-76.2" y2="119.38" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="119.38" x2="-76.2" y2="93.98" width="0.254" layer="94"/>
@@ -4972,6 +5000,35 @@ Source: EP3C25F256.txt</description>
 <text x="76.2" y="-66.04" size="2.54" layer="94" rot="R90" align="center">BANK8</text>
 <text x="0" y="48.26" size="5.842" layer="94" align="center">EP3C25F256</text>
 <text x="-78.74" y="-105.41" size="2.54" layer="94" rot="R90" align="center">JTAG</text>
+<text x="0" y="68.58" size="5.842" layer="94" align="center">Cyclone III</text>
+<text x="0" y="58.42" size="5.842" layer="94" align="center">FPGA</text>
+</symbol>
+<symbol name="EPCQ16">
+<pin name="!CS" x="17.78" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="DATA1" x="-17.78" y="2.54" length="short"/>
+<pin name="DATA2" x="-17.78" y="-2.54" length="short"/>
+<pin name="GND" x="17.78" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="DATA0" x="-17.78" y="7.62" length="short"/>
+<pin name="DCLK" x="17.78" y="2.54" length="short" direction="in" function="clk" rot="R180"/>
+<pin name="DATA3" x="-17.78" y="-7.62" length="short"/>
+<pin name="VCC" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="5.08" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94" align="center">Flash</text>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">Memory</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5654,7 +5711,7 @@ Source: EP3C25F256.txt</description>
 <gate name="G$1" symbol="EP3C25F256" x="0" y="0"/>
 </gates>
 <devices>
-<device name="F256" package="FBGA256">
+<device name="I7" package="FBGA256">
 <connects>
 <connect gate="G$1" pin="!CE" pad="J3"/>
 <connect gate="G$1" pin="!CONFIG" pad="H5"/>
@@ -5912,6 +5969,28 @@ Source: EP3C25F256.txt</description>
 <connect gate="G$1" pin="VCCIO8@0" pad="A1"/>
 <connect gate="G$1" pin="VCCIO8@1" pad="C4"/>
 <connect gate="G$1" pin="VCCIO8@2" pad="C7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EPCQ16" prefix="IC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="EPCQ16" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SI8N" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="DATA0" pad="5"/>
+<connect gate="G$1" pin="DATA1" pad="2"/>
+<connect gate="G$1" pin="DATA2" pad="3"/>
+<connect gate="G$1" pin="DATA3" pad="7"/>
+<connect gate="G$1" pin="DCLK" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
