@@ -1785,10 +1785,10 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PF4/EN0LED1/M0FAULT0/SSI3XDAT2/TRD3" x="-91.44" y="-27.94" length="short"/>
 <pin name="PG0/EN0PPS/EPI0S11/I2C1SCL/M0PWM4" x="-91.44" y="-33.02" length="short"/>
 <pin name="PG1/EPI0S10/I2C1SDA/M0PWM5" x="-91.44" y="-35.56" length="short"/>
-<pin name="EN0RXIN" x="-91.44" y="-53.34" length="short" direction="pas"/>
-<pin name="EN0RXIP" x="-91.44" y="-58.42" length="short" direction="pas"/>
-<pin name="EN0TXON" x="-91.44" y="-63.5" length="short" direction="pas"/>
-<pin name="EN0TXOP" x="-91.44" y="-68.58" length="short" direction="pas"/>
+<pin name="EN0RXIN" x="-91.44" y="-71.12" length="short" direction="pas"/>
+<pin name="EN0RXIP" x="-91.44" y="-66.04" length="short" direction="pas"/>
+<pin name="EN0TXON" x="-91.44" y="-58.42" length="short" direction="pas"/>
+<pin name="EN0TXOP" x="-91.44" y="-53.34" length="short" direction="pas"/>
 <pin name="RBIAS" x="-91.44" y="-73.66" length="short" direction="pas"/>
 <pin name="PK7/EPI0S24/I2C4SDA/RTCCLK/U0RI" x="91.44" y="50.8" length="short" rot="R180"/>
 <pin name="PK6/EN0LED1/EPI0S25/I2C4SCL/M0FAULT1" x="91.44" y="53.34" length="short" rot="R180"/>

@@ -4605,7 +4605,7 @@ Source: EP3C25F256.txt</description>
 </symbol>
 <symbol name="EP3C25F256">
 <pin name="BANK1/VCCD_PLL3" x="68.58" y="121.92" length="short" direction="pwr" rot="R270"/>
-<pin name="BANK1/GNDA3" x="63.5" y="-121.92" length="short" direction="pwr" rot="R90"/>
+<pin name="BANK1/GNDA3" x="63.5" y="-116.84" length="short" direction="pwr" rot="R90"/>
 <pin name="BANK1/VCCA3" x="71.12" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="IOB1" x="-119.38" y="116.84" length="short"/>
 <pin name="IOC2/DIFFIO_L3P" x="-119.38" y="114.3" length="short"/>
@@ -4613,20 +4613,20 @@ Source: EP3C25F256.txt</description>
 <pin name="IOF3/VREFB1N0" x="-119.38" y="109.22" length="short"/>
 <pin name="IOD2/DIFFIO_L4P/FLASH_!CE!/!CSO" x="-119.38" y="106.68" length="short"/>
 <pin name="IOD1/DIFFIO_L4N" x="-119.38" y="104.14" length="short"/>
-<pin name="!STATUS" x="-119.38" y="-99.06" length="short" direction="in"/>
+<pin name="!STATUS" x="-119.38" y="-96.52" length="short" direction="in"/>
 <pin name="IOG5" x="-119.38" y="101.6" length="short"/>
 <pin name="IOF2/DIFFIO_L5P" x="-119.38" y="99.06" length="short"/>
 <pin name="IOF1/DIFFIO_L5N" x="-119.38" y="96.52" length="short"/>
 <pin name="IOG2/DIFFIO_L6P" x="-119.38" y="93.98" length="short"/>
 <pin name="IOG1/DIFFIO_L6N" x="-119.38" y="91.44" length="short"/>
-<pin name="DCLK" x="-119.38" y="-114.3" length="short" direction="in" function="clk"/>
-<pin name="IOH2/DATA0" x="-119.38" y="88.9" length="short"/>
-<pin name="!CONFIG" x="-119.38" y="-96.52" length="short" direction="in"/>
-<pin name="TDI" x="-119.38" y="-101.6" length="short" direction="in"/>
-<pin name="TCK" x="-119.38" y="-104.14" length="short" direction="in"/>
-<pin name="TMS" x="-119.38" y="-106.68" length="short" direction="in"/>
-<pin name="TDO" x="-119.38" y="-109.22" length="short" direction="out"/>
-<pin name="!CE" x="-119.38" y="-111.76" length="short" direction="in"/>
+<pin name="DCLK" x="-119.38" y="-106.68" length="short" direction="in" function="clk"/>
+<pin name="DATA0" x="-119.38" y="-101.6" length="short"/>
+<pin name="!CONFIG" x="-119.38" y="-104.14" length="short" direction="in"/>
+<pin name="TDI" x="116.84" y="-106.68" length="short" direction="in" rot="R180"/>
+<pin name="TCK" x="116.84" y="-104.14" length="short" direction="in" rot="R180"/>
+<pin name="TMS" x="116.84" y="-109.22" length="short" direction="in" rot="R180"/>
+<pin name="TDO" x="116.84" y="-111.76" length="short" direction="out" rot="R180"/>
+<pin name="!CE" x="-119.38" y="-99.06" length="short" direction="in"/>
 <pin name="CLK0/E2/DIFFCLK_0P" x="-119.38" y="83.82" length="short" direction="in" function="clk"/>
 <pin name="CLK1/E1/DIFFCLK_0N" x="-119.38" y="81.28" length="short" direction="in" function="dotclk"/>
 <pin name="CLK2/M2/DIFFCLK_1P" x="-119.38" y="38.1" length="short" direction="in" function="clk"/>
@@ -4646,7 +4646,7 @@ Source: EP3C25F256.txt</description>
 <pin name="IOP2/DIFFIO_L15P" x="-119.38" y="45.72" length="short"/>
 <pin name="IOP1/DIFFIO_L15N" x="-119.38" y="43.18" length="short"/>
 <pin name="BANK2/VCCA1" x="63.5" y="121.92" length="short" direction="pwr" rot="R270"/>
-<pin name="BANK2/GNDA1" x="53.34" y="-121.92" length="short" direction="pwr" rot="R90"/>
+<pin name="BANK2/GNDA1" x="53.34" y="-116.84" length="short" direction="pwr" rot="R90"/>
 <pin name="BANK2/VCCD_PLL1" x="60.96" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="ION3/DIFFIO_B1P" x="-119.38" y="30.48" length="short"/>
 <pin name="IOP3/DIFFIO_B1N" x="-119.38" y="27.94" length="short"/>
@@ -4694,7 +4694,7 @@ Source: EP3C25F256.txt</description>
 <pin name="IOP14/PLL4_CLKOUTP" x="-119.38" y="-78.74" length="short"/>
 <pin name="IOR14/PLL4_CLKOUTN" x="-119.38" y="-81.28" length="short"/>
 <pin name="BANK5/VCCD_PLL4" x="48.26" y="121.92" length="short" direction="pwr" rot="R270"/>
-<pin name="BANK5/GNDA4" x="33.02" y="-121.92" length="short" direction="pwr" rot="R90"/>
+<pin name="BANK5/GNDA4" x="33.02" y="-116.84" length="short" direction="pwr" rot="R90"/>
 <pin name="BANK5/VCCA4" x="45.72" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="ION14/RUP3" x="116.84" y="116.84" length="short" rot="R180"/>
 <pin name="IOP15/RDN3" x="116.84" y="114.3" length="short" rot="R180"/>
@@ -4716,14 +4716,14 @@ Source: EP3C25F256.txt</description>
 <pin name="CLK6/M15/DIFFCLK_3P" x="116.84" y="73.66" length="short" direction="in" function="clk" rot="R180"/>
 <pin name="CLK5/E16/DIFFCLK_2N" x="116.84" y="33.02" length="short" direction="in" function="dotclk" rot="R180"/>
 <pin name="CLK4/E15/DIFFCLK_2P" x="116.84" y="35.56" length="short" direction="in" function="clk" rot="R180"/>
-<pin name="CONF_DONE" x="116.84" y="-104.14" length="short" direction="in" rot="R180"/>
-<pin name="MSEL0" x="116.84" y="-106.68" length="short" direction="in" rot="R180"/>
-<pin name="MSEL1" x="116.84" y="-109.22" length="short" direction="in" rot="R180"/>
-<pin name="MSEL2" x="116.84" y="-111.76" length="short" direction="in" rot="R180"/>
+<pin name="CONF_DONE" x="-119.38" y="-93.98" length="short" direction="in"/>
+<pin name="MSEL0" x="83.82" y="-116.84" length="short" direction="in" rot="R90"/>
+<pin name="MSEL1" x="88.9" y="-116.84" length="short" direction="in" rot="R90"/>
+<pin name="MSEL2" x="93.98" y="-116.84" length="short" direction="in" rot="R90"/>
 <pin name="IOH16/DIFFIO_R6N" x="116.84" y="66.04" length="short" rot="R180"/>
 <pin name="IOH15/DIFFIO_R6P" x="116.84" y="63.5" length="short" rot="R180"/>
-<pin name="INIT_DONE" x="116.84" y="-114.3" length="short" rot="R180"/>
-<pin name="CRC_ERROR" x="116.84" y="-116.84" length="short" rot="R180"/>
+<pin name="INIT_DONE" x="-119.38" y="-109.22" length="short"/>
+<pin name="CRC_ERROR" x="-119.38" y="-111.76" length="short"/>
 <pin name="IOF13" x="116.84" y="60.96" length="short" rot="R180"/>
 <pin name="IOF16/DIFFIO_R4N/!CEO" x="116.84" y="58.42" length="short" rot="R180"/>
 <pin name="IOF15/DIFFIO_R4P/CLKUSR" x="116.84" y="55.88" length="short" rot="R180"/>
@@ -4734,7 +4734,7 @@ Source: EP3C25F256.txt</description>
 <pin name="IOC16/DIFFIO_R1N/PADD20" x="116.84" y="43.18" length="short" rot="R180"/>
 <pin name="IOC15/DIFFIO_R1P" x="116.84" y="40.64" length="short" rot="R180"/>
 <pin name="BANK6/VCCA2" x="55.88" y="121.92" length="short" direction="pwr" rot="R270"/>
-<pin name="BANK6/GNDA2" x="43.18" y="-121.92" length="short" direction="pwr" rot="R90"/>
+<pin name="BANK6/GNDA2" x="43.18" y="-116.84" length="short" direction="pwr" rot="R90"/>
 <pin name="BANK6/VCCD_PLL2" x="53.34" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="IOC14/DIFFIO_T24N" x="116.84" y="27.94" length="short" rot="R180"/>
 <pin name="IOD14/DIFFIO_T24P" x="116.84" y="25.4" length="short" rot="R180"/>
@@ -4822,44 +4822,44 @@ Source: EP3C25F256.txt</description>
 <pin name="VCCIO8@0" x="35.56" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="VCCIO8@1" x="38.1" y="121.92" length="short" direction="pwr" rot="R270"/>
 <pin name="VCCIO8@2" x="40.64" y="121.92" length="short" direction="pwr" rot="R270"/>
-<pin name="GND@0" x="-68.58" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@1" x="-66.04" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@2" x="-63.5" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@3" x="-60.96" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@4" x="-58.42" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@5" x="-55.88" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@6" x="-53.34" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@7" x="-50.8" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@8" x="-48.26" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@9" x="-45.72" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@10" x="-43.18" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@11" x="-40.64" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@12" x="-38.1" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@13" x="-35.56" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@14" x="-33.02" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@15" x="-30.48" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@16" x="-27.94" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@17" x="-25.4" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@18" x="-22.86" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@19" x="-20.32" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@20" x="-17.78" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@21" x="-15.24" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@22" x="-12.7" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@23" x="-10.16" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@24" x="-7.62" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@25" x="-5.08" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@26" x="-2.54" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@27" x="0" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@28" x="2.54" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@29" x="5.08" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@30" x="7.62" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@31" x="10.16" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@32" x="12.7" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@33" x="15.24" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@34" x="17.78" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@35" x="20.32" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@36" x="22.86" y="-121.92" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@37" x="25.4" y="-121.92" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@0" x="-68.58" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@1" x="-66.04" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="-63.5" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@3" x="-60.96" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@4" x="-58.42" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="-55.88" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@6" x="-53.34" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="-50.8" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="-48.26" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="-45.72" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@10" x="-43.18" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="-40.64" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="-38.1" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="-35.56" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="-33.02" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="-30.48" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@16" x="-27.94" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@17" x="-25.4" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@18" x="-22.86" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@19" x="-20.32" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@20" x="-17.78" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@21" x="-15.24" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@22" x="-12.7" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@23" x="-10.16" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@24" x="-7.62" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@25" x="-5.08" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@26" x="-2.54" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@27" x="0" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@28" x="2.54" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@29" x="5.08" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@30" x="7.62" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@31" x="10.16" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@32" x="12.7" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@33" x="15.24" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@34" x="17.78" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@35" x="20.32" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@36" x="22.86" y="-116.84" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@37" x="25.4" y="-116.84" length="short" direction="pwr" rot="R90"/>
 <text x="91.44" y="124.46" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="91.44" y="121.92" size="1.778" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-116.84" y1="119.38" x2="-81.28" y2="119.38" width="0.254" layer="94"/>
@@ -4911,9 +4911,9 @@ Source: EP3C25F256.txt</description>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="73.66" y1="-35.56" x2="73.66" y2="-96.52" width="0.254" layer="94"/>
 <wire x1="73.66" y1="-96.52" x2="73.66" y2="-101.6" width="0.254" layer="94"/>
-<wire x1="73.66" y1="-101.6" x2="73.66" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="73.66" y1="-119.38" x2="114.3" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="114.3" y1="-119.38" x2="114.3" y2="-101.6" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-101.6" x2="73.66" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-114.3" x2="114.3" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="114.3" y1="-114.3" x2="114.3" y2="-101.6" width="0.254" layer="94"/>
 <wire x1="114.3" y1="-101.6" x2="114.3" y2="-93.98" width="0.254" layer="94"/>
 <wire x1="114.3" y1="-93.98" x2="114.3" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="114.3" y1="-35.56" x2="114.3" y2="-27.94" width="0.254" layer="94"/>
@@ -4970,22 +4970,22 @@ Source: EP3C25F256.txt</description>
 <wire x1="58.42" y1="119.38" x2="58.42" y2="93.98" width="0.254" layer="94"/>
 <wire x1="66.04" y1="119.38" x2="66.04" y2="93.98" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="-91.44" x2="-76.2" y2="-96.52" width="0.254" layer="94"/>
-<wire x1="-76.2" y1="-96.52" x2="-76.2" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="-76.2" y1="-119.38" x2="27.94" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-119.38" x2="38.1" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-119.38" x2="48.26" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-119.38" x2="58.42" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="58.42" y1="-119.38" x2="73.66" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="58.42" y1="-96.52" x2="58.42" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-96.52" x2="48.26" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-96.52" x2="38.1" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-96.52" x2="27.94" y2="-119.38" width="0.254" layer="94"/>
+<wire x1="-76.2" y1="-96.52" x2="-76.2" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="-76.2" y1="-114.3" x2="27.94" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-114.3" x2="38.1" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-114.3" x2="48.26" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-114.3" x2="58.42" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-114.3" x2="73.66" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-96.52" x2="58.42" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-96.52" x2="48.26" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-96.52" x2="38.1" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-96.52" x2="27.94" y2="-114.3" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="-96.52" x2="27.94" y2="-96.52" width="0.254" layer="94"/>
 <wire x1="73.66" y1="-96.52" x2="27.94" y2="-96.52" width="0.254" layer="94"/>
-<wire x1="-116.84" y1="-91.44" x2="-116.84" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="-116.84" y1="-119.38" x2="-81.28" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-119.38" x2="-76.2" y2="-119.38" width="0.254" layer="94"/>
-<wire x1="-81.28" y1="-91.44" x2="-81.28" y2="-119.38" width="0.254" layer="94"/>
+<wire x1="-116.84" y1="-91.44" x2="-116.84" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="-116.84" y1="-114.3" x2="-81.28" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="-114.3" x2="-76.2" y2="-114.3" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="-91.44" x2="-81.28" y2="-114.3" width="0.254" layer="94"/>
 <wire x1="114.3" y1="-27.94" x2="78.74" y2="-27.94" width="0.254" layer="94"/>
 <text x="76.2" y="50.8" size="2.54" layer="94" rot="R90" align="center">BANK6</text>
 <wire x1="114.3" y1="-35.56" x2="78.74" y2="-35.56" width="0.254" layer="94"/>
@@ -5749,6 +5749,7 @@ Source: EP3C25F256.txt</description>
 <connect gate="G$1" pin="CLK9/B9/DIFFCLK_5P" pad="B9"/>
 <connect gate="G$1" pin="CONF_DONE" pad="H14"/>
 <connect gate="G$1" pin="CRC_ERROR" pad="G15"/>
+<connect gate="G$1" pin="DATA0" pad="H2"/>
 <connect gate="G$1" pin="DCLK" pad="H1"/>
 <connect gate="G$1" pin="DIFFIO_T19N/PADD1" pad="A15"/>
 <connect gate="G$1" pin="DIFFIO_T20P/PADD0" pad="B11"/>
@@ -5852,7 +5853,6 @@ Source: EP3C25F256.txt</description>
 <connect gate="G$1" pin="IOG5" pad="G5"/>
 <connect gate="G$1" pin="IOH15/DIFFIO_R6P" pad="H15"/>
 <connect gate="G$1" pin="IOH16/DIFFIO_R6N" pad="H16"/>
-<connect gate="G$1" pin="IOH2/DATA0" pad="H2"/>
 <connect gate="G$1" pin="IOJ1/DIFFIO_L7N" pad="J1"/>
 <connect gate="G$1" pin="IOJ13/DIFFIO_R7N" pad="J13"/>
 <connect gate="G$1" pin="IOJ14/DIFFIO_R8N" pad="J14"/>
