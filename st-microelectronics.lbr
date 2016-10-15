@@ -1852,7 +1852,7 @@ Cortex-M3</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB6B1" prefix="IC">
+<deviceset name="USB6B1" prefix="DD">
 <description>&lt;b&gt;DATA LINES PROTECTION&lt;br&gt;&lt;/b&gt;&lt;p&gt;
 Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 <gates>
@@ -1881,7 +1881,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F411CEU6" prefix="IC" uservalue="yes">
+<deviceset name="STM32F411CEU6" prefix="DD">
 <gates>
 <gate name="G$1" symbol="STM32F411CEU6" x="0" y="0"/>
 </gates>
@@ -1943,7 +1943,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L151CCU6" prefix="IC" uservalue="yes">
+<deviceset name="STM32L151CCU6" prefix="DD">
 <gates>
 <gate name="G$1" symbol="STM32L151CCU6" x="0" y="0"/>
 </gates>
@@ -2005,7 +2005,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L151RET6" prefix="IC" uservalue="yes">
+<deviceset name="STM32L151RET6" prefix="DD">
 <gates>
 <gate name="G$1" symbol="STM32L151RET6" x="0" y="0"/>
 </gates>
@@ -2083,7 +2083,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F042G6U6" prefix="IC" uservalue="yes">
+<deviceset name="STM32F042G6U6" prefix="DD">
 <gates>
 <gate name="G$1" symbol="STM32F042G6U6" x="0" y="0"/>
 </gates>
@@ -2125,7 +2125,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F427ZIT6" prefix="IC">
+<deviceset name="STM32F427ZIT6" prefix="DD">
 <description>&lt;b&gt;ARM 32-bit Cortex™-M3 CPU&lt;/b&gt;&lt;p&gt;
 180 MHz maximum frequency&lt;br&gt;
 1024 to 2048 Kbytes of Flash memory&lt;br&gt;
@@ -2290,7 +2290,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F407VGT6" prefix="IC" uservalue="yes">
+<deviceset name="STM32F407VGT6" prefix="DD">
 <description>&lt;b&gt;ARM 32-bit Cortex™-M3 CPU&lt;/b&gt;&lt;p&gt;
 168 MHz maximum frequency&lt;br&gt;
 512 to 1024 Kbytes of Flash memory&lt;br&gt;
@@ -2411,7 +2411,7 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBUF" prefix="IC" uservalue="yes">
+<deviceset name="USBUF" prefix="DD">
 <gates>
 <gate name="G$1" symbol="USBUF" x="0" y="0"/>
 </gates>

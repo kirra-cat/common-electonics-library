@@ -258,7 +258,7 @@ package type OT</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP2558FD" prefix="IC" uservalue="yes">
+<deviceset name="MCP2558FD" prefix="DD">
 <gates>
 <gate name="G$1" symbol="MCP2558FD" x="0" y="0"/>
 </gates>
@@ -297,12 +297,38 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC5219-XX" prefix="IC" uservalue="yes">
+<deviceset name="MIC5219" prefix="DA">
 <gates>
 <gate name="G$1" symbol="MIC5219-X.X" x="0" y="0"/>
 </gates>
 <devices>
-<device name="BML" package="6-VQFN">
+<device name="-2.8BML" package="6-VQFN">
+<connects>
+<connect gate="G$1" pin="!EN" pad="1"/>
+<connect gate="G$1" pin="BYP" pad="6"/>
+<connect gate="G$1" pin="EXT" pad="EXT"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.0BML" package="6-VQFN">
+<connects>
+<connect gate="G$1" pin="!EN" pad="1"/>
+<connect gate="G$1" pin="BYP" pad="6"/>
+<connect gate="G$1" pin="EXT" pad="EXT"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.3BML" package="6-VQFN">
 <connects>
 <connect gate="G$1" pin="!EN" pad="1"/>
 <connect gate="G$1" pin="BYP" pad="6"/>
@@ -317,7 +343,7 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DSC1033" prefix="G" uservalue="yes">
+<deviceset name="DSC1033" prefix="G">
 <gates>
 <gate name="G$1" symbol="DSC1033" x="0" y="0"/>
 </gates>

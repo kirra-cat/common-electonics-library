@@ -106,7 +106,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAT25160HU2I" prefix="IC" uservalue="yes">
+<deviceset name="CAT25160HU2I" prefix="DD" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CAT25160HU2I" x="0" y="0"/>
 </gates>

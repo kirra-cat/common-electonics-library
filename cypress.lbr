@@ -185,7 +185,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="S25L064P">
+<deviceset name="S25L064P" prefix="DD">
 <gates>
 <gate name="G$1" symbol="S25FL064P" x="0" y="0"/>
 </gates>
