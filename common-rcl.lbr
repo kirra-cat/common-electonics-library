@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="58" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="58" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -331,6 +331,30 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
+<package name="HC9">
+<wire x1="-5.75" y1="-7.05" x2="5.75" y2="-7.05" width="0.1" layer="51"/>
+<smd name="1" x="-5.5" y="0" dx="4" dy="5" layer="1" rot="R90"/>
+<smd name="2" x="5.5" y="0" dx="4" dy="5" layer="1" rot="R90"/>
+<wire x1="6.55" y1="-6.25" x2="6.55" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="6.55" y1="-1.8" x2="6.55" y2="1.8" width="0.1" layer="51"/>
+<wire x1="6.55" y1="1.8" x2="6.55" y2="6.25" width="0.1" layer="51"/>
+<wire x1="5.75" y1="7.05" x2="-5.75" y2="7.05" width="0.1" layer="51"/>
+<wire x1="-6.55" y1="6.25" x2="-6.55" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-6.55" y1="1.8" x2="-6.55" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-6.55" y1="-1.8" x2="-6.55" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="5.75" y1="7.05" x2="6.55" y2="6.25" width="0.1" layer="51" curve="-86.633539"/>
+<wire x1="-6.55" y1="6.25" x2="-5.75" y2="7.05" width="0.1" layer="51" curve="-86.633539"/>
+<wire x1="6.55" y1="-6.25" x2="5.75" y2="-7.05" width="0.1" layer="51" curve="-86.633539"/>
+<wire x1="-5.75" y1="-7.05" x2="-6.55" y2="-6.25" width="0.1" layer="51" curve="-86.633539"/>
+<wire x1="6.55" y1="1.8" x2="7.2" y2="1.8" width="0.1" layer="51"/>
+<wire x1="7.2" y1="1.8" x2="7.2" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="7.2" y1="-1.8" x2="6.55" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-7.2" y1="1.8" x2="-6.55" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-7.2" y1="1.8" x2="-7.2" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-7.2" y1="-1.8" x2="-6.55" y2="-1.8" width="0.1" layer="51"/>
+<text x="0" y="-3.5" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-5" size="0.508" layer="27" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C">
@@ -356,23 +380,23 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="L">
-<wire x1="-5.08" y1="0.635" x2="-3.81" y2="1.905" width="0.254" layer="94" curve="-90"/>
-<wire x1="-2.54" y1="0.635" x2="-3.81" y2="1.905" width="0.254" layer="94" curve="90"/>
-<wire x1="-2.54" y1="0.635" x2="-1.27" y2="1.905" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0.635" x2="-1.27" y2="1.905" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0.635" x2="1.27" y2="1.905" width="0.254" layer="94" curve="-90"/>
-<wire x1="2.54" y1="0.635" x2="1.27" y2="1.905" width="0.254" layer="94" curve="90"/>
-<wire x1="2.54" y1="0.635" x2="3.81" y2="1.905" width="0.254" layer="94" curve="-90"/>
-<wire x1="5.08" y1="0.635" x2="3.81" y2="1.905" width="0.254" layer="94" curve="90"/>
-<text x="0" y="3.175" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<text x="0" y="3.81" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="R">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -383,6 +407,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="THROTTLE">
+<text x="0" y="5.08" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-4.445" y1="3.175" x2="4.445" y2="3.175" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -593,6 +637,85 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technologies>
 </device>
 <device name="1206" package="SMD1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HC9" prefix="L">
+<gates>
+<gate name="G$1" symbol="THROTTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2R2-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3R3-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-4R3-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-6R8-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-100-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-220-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-330-R" package="HC9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-470-R" package="HC9">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
