@@ -57,8 +57,13 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2051,6 +2056,99 @@ Cortex-M3</text>
 <text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <text x="0" y="2.54" size="2.1844" layer="94" align="center">RTC</text>
 </symbol>
+<symbol name="STM32L443CCU6">
+<pin name="VBAT" x="7.62" y="45.72" length="short" direction="pwr" rot="R270"/>
+<pin name="PC13" x="35.56" y="33.02" length="short" rot="R180"/>
+<pin name="PC14-OSC32_IN" x="35.56" y="20.32" length="short" rot="R180"/>
+<pin name="PC15-OSC32_OUT" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="PH0-OSC_IN" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="PH1-OSC_OUT" x="35.56" y="-15.24" length="short" rot="R180"/>
+<pin name="NRST" x="35.56" y="-35.56" length="short" direction="in" rot="R180"/>
+<pin name="GNDA/VREF-" x="-5.08" y="-45.72" length="short" direction="pwr" rot="R90"/>
+<pin name="VCCA/VREF+" x="-7.62" y="45.72" length="short" direction="pwr" rot="R270"/>
+<pin name="PA0" x="-35.56" y="40.64" length="short"/>
+<pin name="PA1" x="-35.56" y="38.1" length="short"/>
+<pin name="PA2" x="-35.56" y="35.56" length="short"/>
+<pin name="PA3" x="-35.56" y="33.02" length="short"/>
+<pin name="PA4" x="-35.56" y="30.48" length="short"/>
+<pin name="PA5" x="-35.56" y="27.94" length="short"/>
+<pin name="PA6" x="-35.56" y="25.4" length="short"/>
+<pin name="PA7" x="-35.56" y="22.86" length="short"/>
+<pin name="PB0" x="-35.56" y="-2.54" length="short"/>
+<pin name="PB1" x="-35.56" y="-5.08" length="short"/>
+<pin name="PB2" x="-35.56" y="-7.62" length="short"/>
+<pin name="PB10" x="-35.56" y="-27.94" length="short"/>
+<pin name="PB11" x="-35.56" y="-30.48" length="short"/>
+<pin name="GND@1" x="2.54" y="-45.72" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC@1" x="-5.08" y="45.72" length="short" direction="pwr" rot="R270"/>
+<pin name="PB12" x="-35.56" y="-33.02" length="short"/>
+<pin name="PB13" x="-35.56" y="-35.56" length="short"/>
+<pin name="PB14" x="-35.56" y="-38.1" length="short"/>
+<pin name="PB15" x="-35.56" y="-40.64" length="short"/>
+<pin name="PA8" x="-35.56" y="20.32" length="short"/>
+<pin name="PA9" x="-35.56" y="17.78" length="short"/>
+<pin name="PA10" x="-35.56" y="15.24" length="short"/>
+<pin name="PA11" x="-35.56" y="12.7" length="short"/>
+<pin name="PA12" x="-35.56" y="10.16" length="short"/>
+<pin name="PA13" x="-35.56" y="7.62" length="short"/>
+<pin name="GND@2" x="5.08" y="-45.72" length="short" direction="pwr" rot="R90"/>
+<pin name="VCCUSB" x="2.54" y="45.72" length="short" direction="pwr" rot="R270"/>
+<pin name="PA14" x="-35.56" y="5.08" length="short"/>
+<pin name="PA15" x="-35.56" y="2.54" length="short"/>
+<pin name="PB3" x="-35.56" y="-10.16" length="short"/>
+<pin name="PB4" x="-35.56" y="-12.7" length="short"/>
+<pin name="PB5" x="-35.56" y="-15.24" length="short"/>
+<pin name="PB6" x="-35.56" y="-17.78" length="short"/>
+<pin name="PB7" x="-35.56" y="-20.32" length="short"/>
+<pin name="PH3/BOOT0" x="35.56" y="-22.86" length="short" rot="R180"/>
+<pin name="PB8" x="-35.56" y="-22.86" length="short"/>
+<pin name="PB9" x="-35.56" y="-25.4" length="short"/>
+<pin name="GND@3" x="7.62" y="-45.72" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC@2" x="-2.54" y="45.72" length="short" direction="pwr" rot="R270"/>
+<wire x1="-33.02" y1="43.18" x2="-33.02" y2="0" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="0" x2="-33.02" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-43.18" x2="-10.16" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-43.18" x2="0" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="-43.18" x2="10.16" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-43.18" x2="33.02" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-43.18" x2="33.02" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-27.94" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-17.78" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="22.86" width="0.254" layer="94"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="43.18" x2="10.16" y2="43.18" width="0.254" layer="94"/>
+<wire x1="10.16" y1="43.18" x2="5.08" y2="43.18" width="0.254" layer="94"/>
+<wire x1="5.08" y1="43.18" x2="0" y2="43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="43.18" x2="-10.16" y2="43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="43.18" x2="-33.02" y2="43.18" width="0.254" layer="94"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="10.16" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-33.02" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="5.08" y2="25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="43.18" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="43.18" x2="5.08" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-25.4" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<text x="25.4" y="48.26" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="25.4" y="45.72" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="12.7" size="1.778" layer="94" align="center">Cortex-M4F</text>
+<text x="0" y="7.62" size="1.778" layer="94" align="center">80 MHz</text>
+<wire x1="33.02" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="33.02" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB6B1" prefix="DD">
@@ -2727,6 +2825,68 @@ Source: http://www.st.com/stonline/products/literature/ds/5605.pdf</description>
 <connect gate="G$1" pin="SDA" pad="1"/>
 <connect gate="G$1" pin="SQW" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32L443CCU6" prefix="DD">
+<gates>
+<gate name="G$1" symbol="STM32L443CCU6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UFQFPN48">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="23"/>
+<connect gate="G$1" pin="GND@2" pad="35"/>
+<connect gate="G$1" pin="GND@3" pad="47"/>
+<connect gate="G$1" pin="GNDA/VREF-" pad="8"/>
+<connect gate="G$1" pin="NRST" pad="7"/>
+<connect gate="G$1" pin="PA0" pad="10"/>
+<connect gate="G$1" pin="PA1" pad="11"/>
+<connect gate="G$1" pin="PA10" pad="31"/>
+<connect gate="G$1" pin="PA11" pad="32"/>
+<connect gate="G$1" pin="PA12" pad="33"/>
+<connect gate="G$1" pin="PA13" pad="34"/>
+<connect gate="G$1" pin="PA14" pad="37"/>
+<connect gate="G$1" pin="PA15" pad="38"/>
+<connect gate="G$1" pin="PA2" pad="12"/>
+<connect gate="G$1" pin="PA3" pad="13"/>
+<connect gate="G$1" pin="PA4" pad="14"/>
+<connect gate="G$1" pin="PA5" pad="15"/>
+<connect gate="G$1" pin="PA6" pad="16"/>
+<connect gate="G$1" pin="PA7" pad="17"/>
+<connect gate="G$1" pin="PA8" pad="29"/>
+<connect gate="G$1" pin="PA9" pad="30"/>
+<connect gate="G$1" pin="PB0" pad="18"/>
+<connect gate="G$1" pin="PB1" pad="19"/>
+<connect gate="G$1" pin="PB10" pad="21"/>
+<connect gate="G$1" pin="PB11" pad="22"/>
+<connect gate="G$1" pin="PB12" pad="25"/>
+<connect gate="G$1" pin="PB13" pad="26"/>
+<connect gate="G$1" pin="PB14" pad="27"/>
+<connect gate="G$1" pin="PB15" pad="28"/>
+<connect gate="G$1" pin="PB2" pad="20"/>
+<connect gate="G$1" pin="PB3" pad="39"/>
+<connect gate="G$1" pin="PB4" pad="40"/>
+<connect gate="G$1" pin="PB5" pad="41"/>
+<connect gate="G$1" pin="PB6" pad="42"/>
+<connect gate="G$1" pin="PB7" pad="43"/>
+<connect gate="G$1" pin="PB8" pad="45"/>
+<connect gate="G$1" pin="PB9" pad="46"/>
+<connect gate="G$1" pin="PC13" pad="2"/>
+<connect gate="G$1" pin="PC14-OSC32_IN" pad="3"/>
+<connect gate="G$1" pin="PC15-OSC32_OUT" pad="4"/>
+<connect gate="G$1" pin="PH0-OSC_IN" pad="5"/>
+<connect gate="G$1" pin="PH1-OSC_OUT" pad="6"/>
+<connect gate="G$1" pin="PH3/BOOT0" pad="44"/>
+<connect gate="G$1" pin="VBAT" pad="1"/>
+<connect gate="G$1" pin="VCC@1" pad="24"/>
+<connect gate="G$1" pin="VCC@2" pad="48"/>
+<connect gate="G$1" pin="VCCA/VREF+" pad="9"/>
+<connect gate="G$1" pin="VCCUSB" pad="36"/>
 </connects>
 <technologies>
 <technology name=""/>
