@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -73,6 +73,42 @@
 <smd name="EXT" x="0" y="0" dx="1" dy="1.7" layer="1"/>
 <circle x="-0.8" y="1.29" radius="0.1941625" width="0" layer="21"/>
 </package>
+<package name="SC-75">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; Reflow soldering&lt;p&gt;
+INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
+<smd name="1" x="-0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="3" x="0" y="0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="2" x="0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<text x="-1.27" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-0.6" y1="-0.8" x2="-0.4" y2="-0.35" layer="51"/>
+<rectangle x1="0.4" y1="-0.8" x2="0.6" y2="-0.35" layer="51"/>
+<rectangle x1="-0.1" y1="0.35" x2="0.1" y2="0.8" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.3" x2="0.8" y2="0.3" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.3" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.3" x2="-0.8" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.3" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.3" x2="0.8" y2="0.3" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="-0.3" x2="0.8" y2="-0.3" width="0.05" layer="51"/>
+</package>
+<package name="SC-89">
+<smd name="3" x="0" y="0.55" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="-0.55" dx="0.6" dy="0.6" layer="1"/>
+<smd name="1" x="-0.5" y="-0.55" dx="0.6" dy="0.6" layer="1"/>
+<wire x1="0.8" y1="0.425" x2="-0.8" y2="0.425" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.425" x2="-0.8" y2="-0.425" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.425" x2="0.8" y2="-0.425" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.425" x2="0.8" y2="0.425" width="0.1" layer="51"/>
+<rectangle x1="-0.2" y1="0.4" x2="0.2" y2="0.7" layer="51"/>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.3" y2="-0.4" layer="51" rot="R180"/>
+<rectangle x1="0.3" y1="-0.7" x2="0.7" y2="-0.4" layer="51" rot="R180"/>
+<text x="-1.27" y="0" size="0.254" layer="25" rot="R270" align="center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.254" layer="27" rot="R270" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAT25160HU2I">
@@ -104,6 +140,82 @@
 <text x="-5.08" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="EXT" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
 </symbol>
+<symbol name="N-MOSFET">
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.762" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="1.905" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.2545" y1="0.762" x2="4.0005" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.0005" y1="0.508" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="2.9845" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.9845" y1="0.508" x2="2.7305" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.3592" width="0" layer="94"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.4925" y="0.508"/>
+<vertex x="2.9845" y="-0.254"/>
+<vertex x="4.0005" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<rectangle x1="0.5842" y1="1.27" x2="0.889" y2="2.54" layer="94"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94"/>
+<rectangle x1="0.6096" y1="-2.54" x2="0.9144" y2="-1.27" layer="94"/>
+<rectangle x1="0.5842" y1="-0.762" x2="0.889" y2="0.762" layer="94"/>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="P-MOSFET">
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="-0.762"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94"/>
+<rectangle x1="0.5842" y1="-2.54" x2="0.889" y2="-1.27" layer="94"/>
+<rectangle x1="0.5842" y1="-0.762" x2="0.889" y2="0.762" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.3592" width="0" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="0.762" y2="1.905" width="0.1524" layer="94"/>
+<rectangle x1="0.6096" y1="1.27" x2="0.9144" y2="2.54" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.3592" width="0" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="-1.905" x2="3.4925" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="-0.508" x2="3.4925" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="-0.508" x2="2.9845" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="2.9845" y1="-0.508" x2="2.7305" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="4.2545" y1="-0.762" x2="4.0005" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="4.0005" y1="-0.508" x2="3.4925" y2="-0.508" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.4925" y="-0.508"/>
+<vertex x="2.9845" y="0.254"/>
+<vertex x="4.0005" y="0.254"/>
+</polygon>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAT25160HU2I" prefix="DD" uservalue="yes">
@@ -122,6 +234,120 @@
 <connect gate="G$1" pin="MISO" pad="2"/>
 <connect gate="G$1" pin="MOSI" pad="5"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTA4153NT" prefix="VT">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1" package="SC-75">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1G" package="SC-75">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NVA4153NT" prefix="VT">
+<description>&lt;br&gt;&lt;i&gt;Connect-List generated from &lt;/i&gt;&lt;b&gt;NTA4153NT.DEV&lt;/b&gt; Variant &lt;b&gt;1G&lt;/b&gt; with &lt;i&gt;&lt;b&gt;split-device-symbol.ulp&lt;/b&gt;&lt;/i&gt;</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1G" package="SC-75">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTE4153NT" prefix="VT">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1G" package="SC-89">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NVE4153NT" prefix="VT">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1G" package="SC-89">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTE4151PT" prefix="VT">
+<description>&lt;br&gt;&lt;i&gt;Connect-List generated from &lt;/i&gt;&lt;b&gt;NTA4151PT.DEV&lt;/b&gt; Variant &lt;b&gt;1G&lt;/b&gt; with &lt;i&gt;&lt;b&gt;split-device-symbol.ulp&lt;/b&gt;&lt;/i&gt;</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1G" package="SC-89">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTA4151PT" prefix="VT">
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1G" package="SC-75">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
