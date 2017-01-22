@@ -109,6 +109,37 @@
 <text x="0" y="-2.54" size="1.27" layer="94" align="center">Step-Up
 max 100mA</text>
 </symbol>
+<symbol name="XCL20X">
+<pin name="L1" x="-17.78" y="-2.54" length="short" direction="pas"/>
+<pin name="L2" x="-17.78" y="0" length="short" direction="pas"/>
+<pin name="CE" x="17.78" y="0" length="short" direction="in" rot="R180"/>
+<pin name="GND@2" x="17.78" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-17.78" y="5.08" length="short" direction="pwr"/>
+<pin name="VOUT" x="17.78" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="LX" x="-17.78" y="-5.08" length="short" direction="pas"/>
+<pin name="GND@1" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">DC-DC</text>
+<text x="0" y="-2.54" size="1.27" layer="94" align="center">Step-Up
+max 600mA</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="XCL101" prefix="DA">
@@ -201,6 +232,603 @@ max 100mA</text>
 <connect gate="G$1" pin="NC" pad="5"/>
 <connect gate="G$1" pin="VBAT" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XCL205" prefix="DA">
+<description>&lt;b&gt;step up DC-DC&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;PRODUCT CLASSIFICATION 
+&lt;/p&gt;
+&lt;p&gt;●Ordering Information&lt;/p&gt;
+&lt;p&gt;XCL205①②③④⑤⑥-⑦(*1) Fixed PWM control 
+&lt;/p&gt;
+&lt;p&gt;XCL206①②③④⑤⑥-⑦(*1) PWM / PFM automatic switching
+control 
+&lt;/p&gt;
+&lt;p&gt;XCL207①②③④⑤⑥-⑦(*1) Manual Mode Selection Pin
+(Semi-custom) 
+&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;DESIGNATOR&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;ITEM&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;SYMBOL&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;DESCRIPTION&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;①&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Functions selection (All CE active high) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;A&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, No CL auto discharge, Standard
+			soft-start&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;B&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, Standard soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;G&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;F&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, CL auto discharge, High speed
+			soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;②③&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0~9&lt;/p&gt;
+			&lt;p align="center"&gt;A~M&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;Output voltage options e.g. 1.2V → ②=1, ③=2
+			1.25V → ②=1, ③=C 0.05V increments : 0.05=A, 0.15=B, 0.25=C,
+			0.35=D, 0.45=E, 0.55=F, 0.65=H, 0.75=K, 0.85=L, 0.95=M&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;08&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;External Setting 0.8V ( F type) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;④&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Oscillation Frequency 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;3.0MHz&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;⑤⑥-⑦&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Packages (Order Unit) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;AR-G(*2)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025 (3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;CR-G(*3) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025-02(3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*1) The “-G”
+suffix denotes Halogen and Antimony free as well as being fully EU
+RoHS compliant. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*2) AR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +105 ℃&amp;quot;. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*3) CR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +125 ℃&amp;quot;. 
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XCL20X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="B183CR-G" package="CL-2025-02">
+<connects>
+<connect gate="G$1" pin="CE" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="L1" pad="7"/>
+<connect gate="G$1" pin="L2" pad="8"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XCL206" prefix="DA">
+<description>&lt;b&gt;step up DC-DC&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;PRODUCT CLASSIFICATION 
+&lt;/p&gt;
+&lt;p&gt;●Ordering Information&lt;/p&gt;
+&lt;p&gt;XCL205①②③④⑤⑥-⑦(*1) Fixed PWM control 
+&lt;/p&gt;
+&lt;p&gt;XCL206①②③④⑤⑥-⑦(*1) PWM / PFM automatic switching
+control 
+&lt;/p&gt;
+&lt;p&gt;XCL207①②③④⑤⑥-⑦(*1) Manual Mode Selection Pin
+(Semi-custom) 
+&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;DESIGNATOR&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;ITEM&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;SYMBOL&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;DESCRIPTION&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;①&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Functions selection (All CE active high) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;A&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, No CL auto discharge, Standard
+			soft-start&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;B&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, Standard soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;G&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;F&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, CL auto discharge, High speed
+			soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;②③&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0~9&lt;/p&gt;
+			&lt;p align="center"&gt;A~M&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;Output voltage options e.g. 1.2V → ②=1, ③=2
+			1.25V → ②=1, ③=C 0.05V increments : 0.05=A, 0.15=B, 0.25=C,
+			0.35=D, 0.45=E, 0.55=F, 0.65=H, 0.75=K, 0.85=L, 0.95=M&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;08&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;External Setting 0.8V ( F type) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;④&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Oscillation Frequency 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;3.0MHz&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;⑤⑥-⑦&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Packages (Order Unit) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;AR-G(*2)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025 (3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;CR-G(*3) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025-02(3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*1) The “-G”
+suffix denotes Halogen and Antimony free as well as being fully EU
+RoHS compliant. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*2) AR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +105 ℃&amp;quot;. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*3) CR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +125 ℃&amp;quot;. 
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XCL20X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="G183CR-G" package="CL-2025-02">
+<connects>
+<connect gate="G$1" pin="CE" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="L1" pad="7"/>
+<connect gate="G$1" pin="L2" pad="8"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XCL207" prefix="DA">
+<description>&lt;b&gt;step up DC-DC&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;PRODUCT CLASSIFICATION 
+&lt;/p&gt;
+&lt;p&gt;●Ordering Information&lt;/p&gt;
+&lt;p&gt;XCL205①②③④⑤⑥-⑦(*1) Fixed PWM control 
+&lt;/p&gt;
+&lt;p&gt;XCL206①②③④⑤⑥-⑦(*1) PWM / PFM automatic switching
+control 
+&lt;/p&gt;
+&lt;p&gt;XCL207①②③④⑤⑥-⑦(*1) Manual Mode Selection Pin
+(Semi-custom) 
+&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;DESIGNATOR&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;ITEM&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;SYMBOL&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;DESCRIPTION&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;①&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Functions selection (All CE active high) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;A&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, No CL auto discharge, Standard
+			soft-start&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;B&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧2.0V, Fixed Output Voltage CL auto
+			discharge, Standard soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;G&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, Fixed Output Voltage CL auto
+			discharge, High speed soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;F&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;VIN≧1.8V, CL auto discharge, High speed
+			soft-start 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;②③&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Fixed Output Voltage&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0~9&lt;/p&gt;
+			&lt;p align="center"&gt;A~M&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;Output voltage options e.g. 1.2V → ②=1, ③=2
+			1.25V → ②=1, ③=C 0.05V increments : 0.05=A, 0.15=B, 0.25=C,
+			0.35=D, 0.45=E, 0.55=F, 0.65=H, 0.75=K, 0.85=L, 0.95=M&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Output Voltage External Setting 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;08&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;External Setting 0.8V ( F type) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;④&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Oscillation Frequency 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;3.0MHz&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;⑤⑥-⑦&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" colspan="2" width="40%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Packages (Order Unit) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;AR-G(*2)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025 (3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;CR-G(*3) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;CL-2025-02(3,000pcs/Reel)&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*1) The “-G”
+suffix denotes Halogen and Antimony free as well as being fully EU
+RoHS compliant. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*2) AR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +105 ℃&amp;quot;. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;(*3) CR-G is storage
+temperature range &amp;quot;-40 ℃ ~ +125 ℃&amp;quot;. 
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XCL20X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="G183CR-G" package="CL-2025-02">
+<connects>
+<connect gate="G$1" pin="CE" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="L1" pad="7"/>
+<connect gate="G$1" pin="L2" pad="8"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
