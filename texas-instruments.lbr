@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2722,9 +2722,9 @@ TM4C1294NCPDT</text>
 <text x="-5.08" y="63.5" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LM3880">
-<pin name="VCC" x="-15.24" y="2.54" length="short" direction="pwr"/>
-<pin name="EN" x="-15.24" y="-2.54" length="short" direction="in"/>
-<pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="-15.24" y="5.08" length="short" direction="pwr"/>
+<pin name="EN" x="-15.24" y="0" length="short" direction="in"/>
+<pin name="GND" x="-15.24" y="-5.08" length="short" direction="pwr"/>
 <pin name="FLAG1" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
 <pin name="FLAG2" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="FLAG3" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
@@ -2738,8 +2738,8 @@ TM4C1294NCPDT</text>
 <wire x1="2.54" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="LP2989">
 <pin name="BYPASS" x="-20.32" y="2.54" length="short" direction="in"/>
@@ -3317,6 +3317,39 @@ TM4C1294NCPDT</text>
 <pin name="EN" x="0" y="5.08" visible="pad" length="short" direction="in" rot="R270"/>
 <text x="0" y="1.778" size="0.508" layer="94" font="vector" ratio="16" align="center">EN</text>
 <text x="0" y="-1.778" size="0.508" layer="94" font="vector" ratio="16" align="center">!EN</text>
+</symbol>
+<symbol name="LM3881">
+<pin name="VCC" x="-17.78" y="7.62" length="short" direction="pwr"/>
+<pin name="EN" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="GND" x="-17.78" y="-7.62" length="short" direction="pwr"/>
+<pin name="INV" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="TADJ" x="17.78" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="FLAG1" x="17.78" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="FLAG2" x="17.78" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="FLAG3" x="17.78" y="-2.54" length="short" direction="out" rot="R180"/>
+<wire x1="15.24" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="94" align="center">Power
+Sequencer</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5623,6 +5656,58 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 <connect gate="G$5" pin="EN" pad="16"/>
 <connect gate="G$6" pin="GND" pad="12"/>
 <connect gate="G$6" pin="VCC" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3881" prefix="DD">
+<gates>
+<gate name="G$1" symbol="LM3881" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MM/NOPB" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FLAG1" pad="8"/>
+<connect gate="G$1" pin="FLAG2" pad="7"/>
+<connect gate="G$1" pin="FLAG3" pad="6"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INV" pad="4"/>
+<connect gate="G$1" pin="TADJ" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MME/NOPB" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FLAG1" pad="8"/>
+<connect gate="G$1" pin="FLAG2" pad="7"/>
+<connect gate="G$1" pin="FLAG3" pad="6"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INV" pad="4"/>
+<connect gate="G$1" pin="TADJ" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MMX/NOPB" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FLAG1" pad="8"/>
+<connect gate="G$1" pin="FLAG2" pad="7"/>
+<connect gate="G$1" pin="FLAG3" pad="6"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INV" pad="4"/>
+<connect gate="G$1" pin="TADJ" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
