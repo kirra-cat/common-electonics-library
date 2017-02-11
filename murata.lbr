@@ -147,6 +147,27 @@
 <wire x1="6.05" y1="-4" x2="5.5" y2="-4.55" width="0.1" layer="51" curve="-90"/>
 <wire x1="-5.5" y1="-4.55" x2="-6.05" y2="-4" width="0.1" layer="51" curve="-90"/>
 </package>
+<package name="EFI0603">
+<smd name="1" x="-0.9" y="0" dx="0.9" dy="0.8" layer="1"/>
+<smd name="3" x="0" y="0" dx="0.4" dy="1.6" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.9" dy="0.8" layer="1"/>
+<wire x1="-0.8" y1="0.3" x2="-0.8" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.3" x2="-0.7" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.3" x2="0.6" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="0.8" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.3" x2="0.8" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.3" x2="0.7" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.7" y1="0.3" x2="0.6" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.3" x2="-0.6" y2="0.3" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.3" x2="-0.7" y2="0.3" width="0.127" layer="51"/>
+<wire x1="-0.7" y1="0.3" x2="-0.8" y2="0.3" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.3" x2="-0.6" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.3" x2="-0.7" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.7" y1="-0.3" x2="-0.7" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.7" y1="0.3" x2="0.7" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="0.6" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.3" x2="0.6" y2="0.3" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LXDC2HL">
@@ -189,6 +210,22 @@ Filter</text>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="EFI_FILTER">
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="-2.54" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="2.54" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="0" y1="0" x2="0.3175" y2="0.9525" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -589,6 +626,165 @@ Filter</text>
 <connect gate="G$1" pin="CB" pad="2"/>
 <connect gate="G$1" pin="CG" pad="4"/>
 <connect gate="G$1" pin="PSG" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NFL18" prefix="Z">
+<description>&lt;b&gt;Murata&lt;/b&gt;&lt;p&gt;
+NFL18ST107H1A3D&lt;p&gt;
+ST - For Signal Lines, T Circuit&lt;br&gt;
+SP - For Signal Lines, π Circuit&lt;br&gt;
+107 - Cut-off Frequency expressed by three figures. The unit is in hertz (Hz).&lt;br&gt;
+H/X - Cut-off Frequency&lt;br&gt;
+1A - Rated Voltage&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1A - 10V&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1C - 16V&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1E - 25V&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1H - 50V&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2A - 100V&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="EFI_FILTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ST207X1C3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST307X1C3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SP507X1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SP157X1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST706H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST507X1C3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST506H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST107H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SP207X1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST207H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST307H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SP307X1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST507H1A3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST157X1C3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
