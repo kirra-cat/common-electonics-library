@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -656,15 +656,15 @@ Power Detector</text>
 <text x="0" y="33.02" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="LTC3605">
-<pin name="RT" x="22.86" y="-12.7" length="short" direction="pas" rot="R180"/>
-<pin name="PHMODE" x="-22.86" y="12.7" length="short" direction="pas"/>
-<pin name="MODE" x="-22.86" y="10.16" length="short" direction="pas"/>
+<pin name="RT" x="22.86" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="PHMODE" x="-22.86" y="2.54" length="short" direction="pas"/>
+<pin name="MODE" x="-22.86" y="0" length="short" direction="pas"/>
 <pin name="FB" x="22.86" y="-7.62" length="short" direction="out" rot="R180"/>
-<pin name="TRACK/SS" x="-22.86" y="0" length="short" direction="out"/>
-<pin name="ITH" x="-22.86" y="-5.08" length="short" direction="out"/>
-<pin name="RUN" x="-22.86" y="5.08" length="short" direction="in"/>
-<pin name="PGOOD" x="22.86" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="VON" x="22.86" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="TRACK/SS" x="-22.86" y="-10.16" length="short" direction="out"/>
+<pin name="ITH" x="-22.86" y="-15.24" length="short" direction="out"/>
+<pin name="RUN" x="-22.86" y="-5.08" length="short" direction="in"/>
+<pin name="PGOOD" x="22.86" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="VON" x="22.86" y="7.62" length="short" direction="in" rot="R180"/>
 <pin name="PGND@1" x="22.86" y="-22.86" length="short" direction="pwr" rot="R180"/>
 <pin name="PGND@2" x="22.86" y="-25.4" length="short" direction="pwr" rot="R180"/>
 <pin name="SW@1" x="22.86" y="25.4" length="short" direction="out" rot="R180"/>
@@ -675,12 +675,12 @@ Power Detector</text>
 <pin name="SW@6" x="22.86" y="12.7" length="short" direction="out" rot="R180"/>
 <pin name="PVIN@1" x="-22.86" y="25.4" length="short" direction="in"/>
 <pin name="PVIN@2" x="-22.86" y="22.86" length="short" direction="in"/>
-<pin name="SVIN" x="-22.86" y="17.78" length="short" direction="in"/>
-<pin name="BOOST" x="22.86" y="-17.78" length="short" direction="pas" rot="R180"/>
-<pin name="INTVCC" x="-22.86" y="-17.78" length="short" direction="out"/>
+<pin name="SVIN" x="-22.86" y="15.24" length="short" direction="in"/>
+<pin name="BOOST" x="22.86" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="INTVCC" x="-22.86" y="-20.32" length="short" direction="out"/>
 <pin name="SGND" x="-22.86" y="-25.4" length="short" direction="pwr"/>
-<pin name="CLKOUT" x="-22.86" y="-12.7" length="short" direction="out" function="dotclk"/>
-<pin name="CLKIN" x="-22.86" y="-10.16" length="short" function="clk"/>
+<pin name="CLKOUT" x="-22.86" y="7.62" length="short" direction="out" function="dotclk"/>
+<pin name="CLKIN" x="-22.86" y="10.16" length="short" function="clk"/>
 <wire x1="-20.32" y1="27.94" x2="-20.32" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-27.94" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
