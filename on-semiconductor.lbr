@@ -148,6 +148,27 @@ grid 2.54 mm</description>
 <rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
 <hole x="0" y="11.176" drill="3.302"/>
 </package>
+<package name="SC70">
+<description>&lt;b&gt;SC70-3 Reflow soldering&lt;/b&gt;&lt;p&gt;
+Philips SC01_Mounting_1996.pdf&lt;p&gt;
+ROHM : UMT3 ; EIAJ : SC-70</description>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="-0.4604" x2="-0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="-0.4604" x2="-0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.4604" width="0.1524" layer="21"/>
+<wire x1="0.9224" y1="-0.4604" x2="-0.9224" y2="-0.4604" width="0.1524" layer="21"/>
+<wire x1="-0.9224" y1="-0.4604" x2="-0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
+<text x="-1.5875" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="1.5875" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.5" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.5" layer="51"/>
+<rectangle x1="-0.15" y1="0.5" x2="0.15" y2="1.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAT25160HU2I">
@@ -271,6 +292,25 @@ grid 2.54 mm</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 <circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
 <text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
@@ -434,6 +474,107 @@ grid 2.54 mm</description>
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 <connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC846" prefix="VT">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC847" prefix="VT">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CWT3G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC848" prefix="VT">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CWT1G" package="SC70">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
