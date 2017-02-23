@@ -369,27 +369,27 @@ Repeater</text>
 <devicesets>
 <deviceset name="FIN1102" prefix="DD">
 <gates>
-<gate name="G$1" symbol="LVDS_REPEATER" x="0" y="12.7"/>
-<gate name="G$2" symbol="LVDS_REPEATER" x="0" y="-12.7"/>
-<gate name="G$3" symbol="REPEATER_POWER1102" x="0" y="-30.48"/>
+<gate name=".1" symbol="LVDS_REPEATER" x="0" y="12.7"/>
+<gate name=".2" symbol="LVDS_REPEATER" x="0" y="-12.7"/>
+<gate name=".3" symbol="REPEATER_POWER1102" x="0" y="-30.48"/>
 </gates>
 <devices>
 <device name="MTC" package="TSSOP14">
 <connects>
-<connect gate="G$1" pin="!IN" pad="2"/>
-<connect gate="G$1" pin="!OUT" pad="13"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="12"/>
-<connect gate="G$2" pin="!IN" pad="5"/>
-<connect gate="G$2" pin="!OUT" pad="10"/>
-<connect gate="G$2" pin="IN" pad="4"/>
-<connect gate="G$2" pin="OUT" pad="11"/>
-<connect gate="G$3" pin="EN" pad="6"/>
-<connect gate="G$3" pin="GND@1" pad="1"/>
-<connect gate="G$3" pin="GND@2" pad="7"/>
-<connect gate="G$3" pin="VBB" pad="8"/>
-<connect gate="G$3" pin="VCC@1" pad="9"/>
-<connect gate="G$3" pin="VCC@2" pad="14"/>
+<connect gate=".1" pin="!IN" pad="2"/>
+<connect gate=".1" pin="!OUT" pad="13"/>
+<connect gate=".1" pin="IN" pad="3"/>
+<connect gate=".1" pin="OUT" pad="12"/>
+<connect gate=".2" pin="!IN" pad="5"/>
+<connect gate=".2" pin="!OUT" pad="10"/>
+<connect gate=".2" pin="IN" pad="4"/>
+<connect gate=".2" pin="OUT" pad="11"/>
+<connect gate=".3" pin="EN" pad="6"/>
+<connect gate=".3" pin="GND@1" pad="1"/>
+<connect gate=".3" pin="GND@2" pad="7"/>
+<connect gate=".3" pin="VBB" pad="8"/>
+<connect gate=".3" pin="VCC@1" pad="9"/>
+<connect gate=".3" pin="VCC@2" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -399,39 +399,39 @@ Repeater</text>
 </deviceset>
 <deviceset name="FIN1104" prefix="DD">
 <gates>
-<gate name="G$1" symbol="LVDS_REPEATER" x="-17.78" y="12.7"/>
-<gate name="G$2" symbol="LVDS_REPEATER" x="-17.78" y="-12.7"/>
-<gate name="G$3" symbol="LVDS_REPEATER" x="17.78" y="12.7"/>
-<gate name="G$4" symbol="LVDS_REPEATER" x="17.78" y="-12.7"/>
-<gate name="G$5" symbol="REPEATER_POWER1104" x="0" y="-35.56"/>
+<gate name=".1" symbol="LVDS_REPEATER" x="-17.78" y="12.7"/>
+<gate name=".2" symbol="LVDS_REPEATER" x="-17.78" y="-12.7"/>
+<gate name=".3" symbol="LVDS_REPEATER" x="17.78" y="12.7"/>
+<gate name=".4" symbol="LVDS_REPEATER" x="17.78" y="-12.7"/>
+<gate name=".5" symbol="REPEATER_POWER1104" x="0" y="-35.56"/>
 </gates>
 <devices>
 <device name="MTC" package="TSSOP24">
 <connects>
-<connect gate="G$1" pin="!IN" pad="3"/>
-<connect gate="G$1" pin="!OUT" pad="22"/>
-<connect gate="G$1" pin="IN" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="21"/>
-<connect gate="G$2" pin="!IN" pad="6"/>
-<connect gate="G$2" pin="!OUT" pad="19"/>
-<connect gate="G$2" pin="IN" pad="5"/>
-<connect gate="G$2" pin="OUT" pad="20"/>
-<connect gate="G$3" pin="!IN" pad="7"/>
-<connect gate="G$3" pin="!OUT" pad="18"/>
-<connect gate="G$3" pin="IN" pad="8"/>
-<connect gate="G$3" pin="OUT" pad="17"/>
-<connect gate="G$4" pin="!IN" pad="10"/>
-<connect gate="G$4" pin="!OUT" pad="15"/>
-<connect gate="G$4" pin="IN" pad="9"/>
-<connect gate="G$4" pin="OUT" pad="16"/>
-<connect gate="G$5" pin="!EN" pad="23"/>
-<connect gate="G$5" pin="EN" pad="11"/>
-<connect gate="G$5" pin="GND@1" pad="1"/>
-<connect gate="G$5" pin="GND@2" pad="2"/>
-<connect gate="G$5" pin="GND@3" pad="12"/>
-<connect gate="G$5" pin="VBB" pad="13"/>
-<connect gate="G$5" pin="VCC@1" pad="14"/>
-<connect gate="G$5" pin="VCC@2" pad="24"/>
+<connect gate=".1" pin="!IN" pad="3"/>
+<connect gate=".1" pin="!OUT" pad="22"/>
+<connect gate=".1" pin="IN" pad="4"/>
+<connect gate=".1" pin="OUT" pad="21"/>
+<connect gate=".2" pin="!IN" pad="6"/>
+<connect gate=".2" pin="!OUT" pad="19"/>
+<connect gate=".2" pin="IN" pad="5"/>
+<connect gate=".2" pin="OUT" pad="20"/>
+<connect gate=".3" pin="!IN" pad="7"/>
+<connect gate=".3" pin="!OUT" pad="18"/>
+<connect gate=".3" pin="IN" pad="8"/>
+<connect gate=".3" pin="OUT" pad="17"/>
+<connect gate=".4" pin="!IN" pad="10"/>
+<connect gate=".4" pin="!OUT" pad="15"/>
+<connect gate=".4" pin="IN" pad="9"/>
+<connect gate=".4" pin="OUT" pad="16"/>
+<connect gate=".5" pin="!EN" pad="23"/>
+<connect gate=".5" pin="EN" pad="11"/>
+<connect gate=".5" pin="GND@1" pad="1"/>
+<connect gate=".5" pin="GND@2" pad="2"/>
+<connect gate=".5" pin="GND@3" pad="12"/>
+<connect gate=".5" pin="VBB" pad="13"/>
+<connect gate=".5" pin="VCC@1" pad="14"/>
+<connect gate=".5" pin="VCC@2" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
