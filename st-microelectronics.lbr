@@ -2739,6 +2739,25 @@ Amplifier</text>
 Cortex-M7 CPU
 216 MHz</text>
 </symbol>
+<symbol name="SLVU2.8-4A1">
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-2.54" y="0" size="1.27" layer="95" rot="R90" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="1.27" layer="96" rot="R90" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB6B1" prefix="DD">
@@ -3805,6 +3824,31 @@ Source: STM32F765_767_777_LQFP144.bsd</description>
 <connect gate="G$1" pin="VSS@7" pad="38"/>
 <connect gate="G$1" pin="VSS@8" pad="16"/>
 <connect gate="G$1" pin="VSSA" pad="31"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SLVU2.8-4A1" prefix="VD">
+<gates>
+<gate name=".1" symbol="SLVU2.8-4A1" x="-5.08" y="10.16" swaplevel="1"/>
+<gate name=".2" symbol="SLVU2.8-4A1" x="-5.08" y="-10.16" swaplevel="1"/>
+<gate name=".3" symbol="SLVU2.8-4A1" x="5.08" y="10.16" swaplevel="1"/>
+<gate name=".4" symbol="SLVU2.8-4A1" x="5.08" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate=".1" pin="1" pad="1"/>
+<connect gate=".1" pin="2" pad="2"/>
+<connect gate=".2" pin="1" pad="3"/>
+<connect gate=".2" pin="2" pad="4"/>
+<connect gate=".3" pin="1" pad="5"/>
+<connect gate=".3" pin="2" pad="6"/>
+<connect gate=".4" pin="1" pad="7"/>
+<connect gate=".4" pin="2" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
