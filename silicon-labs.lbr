@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -124,8 +124,8 @@
 <pin name="!RST" x="17.78" y="22.86" length="short" rot="R180"/>
 <pin name="REGIN" x="-17.78" y="17.78" length="short" direction="pwr"/>
 <pin name="VBUS" x="-17.78" y="15.24" length="short" direction="pwr"/>
-<pin name="DP" x="-17.78" y="-7.62" length="short"/>
-<pin name="DM" x="-17.78" y="-15.24" length="short"/>
+<pin name="DP" x="-17.78" y="-15.24" length="short"/>
+<pin name="DM" x="-17.78" y="-7.62" length="short"/>
 <pin name="TXD" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
 <pin name="RXD" x="17.78" y="2.54" length="short" direction="in" rot="R180"/>
 <pin name="CTS" x="17.78" y="-2.54" length="short" direction="in" rot="R180"/>
