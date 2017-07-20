@@ -242,6 +242,83 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
+<package name="US8">
+<smd name="1" x="-0.75" y="-1.35" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-0.25" y="-1.35" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.25" y="-1.35" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="-1.35" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0.75" y="1.35" dx="0.7" dy="0.3" layer="1" rot="R270"/>
+<smd name="6" x="0.25" y="1.35" dx="0.7" dy="0.3" layer="1" rot="R270"/>
+<smd name="7" x="-0.25" y="1.35" dx="0.7" dy="0.3" layer="1" rot="R270"/>
+<smd name="8" x="-0.75" y="1.35" dx="0.7" dy="0.3" layer="1" rot="R270"/>
+<wire x1="-0.9" y1="-1.15" x2="0.9" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="1" y1="-1.05" x2="1" y2="1.05" width="0.1" layer="51"/>
+<wire x1="0.9" y1="1.15" x2="-0.9" y2="1.15" width="0.1" layer="51"/>
+<circle x="-0.7" y="-0.85" radius="0.14141875" width="0" layer="51"/>
+<wire x1="-1" y1="1.05" x2="-1" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="1.15" x2="-1" y2="1.05" width="0.1" layer="51"/>
+<wire x1="0.9" y1="1.15" x2="1" y2="1.05" width="0.1" layer="51"/>
+<wire x1="0.9" y1="-1.15" x2="1" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="-1.15" x2="-1" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-1.15" x2="-0.85" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-1.35" x2="-0.85" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-1.55" x2="-0.65" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.55" x2="-0.65" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.35" x2="-0.65" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.15" x2="-0.85" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-1.35" x2="-0.65" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="-1.15" x2="-0.35" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="-1.35" x2="-0.35" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="-1.55" x2="-0.15" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="-1.55" x2="-0.15" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="-1.35" x2="-0.15" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="-1.15" x2="-0.35" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="-1.35" x2="-0.15" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-1.15" x2="0.15" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-1.35" x2="0.15" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-1.55" x2="0.35" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="0.35" y1="-1.55" x2="0.35" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.35" y1="-1.35" x2="0.35" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="0.35" y1="-1.15" x2="0.15" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-1.35" x2="0.35" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.15" x2="0.65" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.35" x2="0.65" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.55" x2="0.85" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-1.55" x2="0.85" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-1.35" x2="0.85" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-1.15" x2="0.65" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.35" x2="0.85" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="0.85" y1="1.15" x2="0.85" y2="1.35" width="0.1" layer="51"/>
+<wire x1="0.85" y1="1.35" x2="0.85" y2="1.55" width="0.1" layer="51"/>
+<wire x1="0.85" y1="1.55" x2="0.65" y2="1.55" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.55" x2="0.65" y2="1.35" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.35" x2="0.65" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.15" x2="0.85" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0.85" y1="1.35" x2="0.65" y2="1.35" width="0.1" layer="51"/>
+<wire x1="0.35" y1="1.15" x2="0.35" y2="1.35" width="0.1" layer="51"/>
+<wire x1="0.35" y1="1.35" x2="0.35" y2="1.55" width="0.1" layer="51"/>
+<wire x1="0.35" y1="1.55" x2="0.15" y2="1.55" width="0.1" layer="51"/>
+<wire x1="0.15" y1="1.55" x2="0.15" y2="1.35" width="0.1" layer="51"/>
+<wire x1="0.15" y1="1.35" x2="0.15" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0.15" y1="1.15" x2="0.35" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0.35" y1="1.35" x2="0.15" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="1.15" x2="-0.15" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="1.35" x2="-0.15" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="1.55" x2="-0.35" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.55" x2="-0.35" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.35" x2="-0.35" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.15" x2="-0.15" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="1.35" x2="-0.35" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="1.15" x2="-0.65" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="1.35" x2="-0.65" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="1.55" x2="-0.85" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="1.55" x2="-0.85" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="1.35" x2="-0.85" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="1.15" x2="-0.65" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="1.35" x2="-0.85" y2="1.35" width="0.1" layer="51"/>
+<text x="0" y="0.258" size="0.254" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.25" size="0.254" layer="27" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LVDS_REPEATER">
@@ -267,8 +344,8 @@ Repeater</text>
 <symbol name="REPEATER_POWER1102">
 <pin name="GND@1" x="-12.7" y="-2.54" length="short" direction="pwr"/>
 <pin name="VCC@1" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<pin name="EN" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="VBB" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="EN" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="VBB" x="-12.7" y="2.54" length="short" direction="out"/>
 <wire x1="-10.16" y1="5.08" x2="-10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="0" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
@@ -292,7 +369,7 @@ Repeater</text>
 <pin name="GND@1" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
 <pin name="VCC@1" x="-12.7" y="-2.54" length="short" direction="pwr"/>
 <pin name="EN" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="VBB" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="VBB" x="-12.7" y="5.08" length="short" direction="out"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="0" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
@@ -311,7 +388,7 @@ Repeater</text>
 <wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
 <pin name="GND@2" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="VCC@2" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="!EN" x="-12.7" y="5.08" length="short" direction="in" function="dot"/>
+<pin name="!EN" x="12.7" y="5.08" length="short" direction="in" function="dot" rot="R180"/>
 <pin name="GND@3" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="SCHMITT_TRIGGER">
@@ -353,9 +430,9 @@ Repeater</text>
 <pin name="OUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
 <text x="0" y="17.78" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="15.24" size="1.27" layer="96" align="center">&gt;VALUE</text>
-<pin name="EN" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="EN" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
 <pin name="GND" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<pin name="NC" x="12.7" y="-5.08" length="short" direction="nc" rot="R180"/>
+<pin name="NC" x="-12.7" y="-5.08" length="short" direction="nc"/>
 <pin name="VCC" x="12.7" y="-10.16" length="short" direction="pwr" rot="R180"/>
 <wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
@@ -517,6 +594,21 @@ Repeater</text>
 <connect gate="G$1" pin="NC" pad="4"/>
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K8X" package="US8">
+<connects>
+<connect gate="G$1" pin="!IN" pad="1"/>
+<connect gate="G$1" pin="!OUT" pad="5"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="8"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
