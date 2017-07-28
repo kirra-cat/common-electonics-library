@@ -1424,6 +1424,39 @@ Controller</text>
 <text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
+<symbol name="LT1529">
+<pin name="IN" x="-17.78" y="5.08" length="short" direction="pwr"/>
+<pin name="!SHDN" x="-17.78" y="0" length="short" direction="in" function="dot"/>
+<pin name="GND@1" x="-17.78" y="-5.08" length="short" direction="pwr"/>
+<pin name="GND@2" x="17.78" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="SENSE" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="17.78" y="5.08" length="short" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="2.54" layer="94" align="center">STU</text>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC5582" prefix="DA">
@@ -3042,6 +3075,91 @@ Controller</text>
 <connect gate="G$1" pin="IN" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="4"/>
 <connect gate="G$1" pin="SENSE" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT1529" prefix="DA">
+<gates>
+<gate name="G$1" symbol="LT1529" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CQ" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CQ-3.3" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CQ-5" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IQ" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IQ-3.3" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IQ-5" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SENSE" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

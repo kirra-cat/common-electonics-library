@@ -93,6 +93,29 @@
 <text x="0" y="3.048" size="0.508" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-3.048" size="0.508" layer="27" align="center">&gt;NAME</text>
 </package>
+<package name="SRU8028">
+<wire x1="-2" y1="4" x2="2" y2="4" width="0.127" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-4" x2="-2" y2="-4" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2" x2="-4" y2="2" width="0.127" layer="51"/>
+<wire x1="-4" y1="2" x2="-2" y2="4" width="0.127" layer="51"/>
+<wire x1="4" y1="2" x2="2" y2="4" width="0.127" layer="51"/>
+<wire x1="-2" y1="-4" x2="-4" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-4" x2="4" y2="-2" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3.201559375" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-0.25" x2="2.25" y2="0.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.25" y1="0.25" x2="3" y2="0.25" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-0.25" x2="3" y2="-0.25" width="0.127" layer="51"/>
+<circle x="1.5" y="0" radius="0.25" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.25" x2="-2.25" y2="0.25" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.25" x2="-2.25" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0.25" x2="-2.25" y2="-0.25" width="0.127" layer="51" curve="-180"/>
+<smd name="1" x="-4.9" y="0" dx="2" dy="3.2" layer="1"/>
+<smd name="2" x="4.9" y="0" dx="2" dy="3.2" layer="1"/>
+<text x="0" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0.254" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="THROTTLE">
@@ -796,6 +819,139 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRU8028" prefix="L">
+<gates>
+<gate name="G$1" symbol="THROTTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1R0Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2R5Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3R3Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-4R7Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-6R8Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-8R2Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-100Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-120Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-150Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-220Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-330Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-470Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-680Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-101Y" package="SRU8028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

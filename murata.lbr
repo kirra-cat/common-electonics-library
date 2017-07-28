@@ -204,12 +204,12 @@ DC-DC </text>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="0" y="2.54" size="1.524" layer="94" align="center">EMI
-Filter</text>
+<text x="0" y="2.54" size="1.524" layer="94" align="center">EMI</text>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="94" align="center">Filter</text>
 </symbol>
 <symbol name="EFI_FILTER">
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
@@ -226,6 +226,24 @@ Filter</text>
 <wire x1="0" y1="0" x2="0.3175" y2="0.9525" width="0.254" layer="94"/>
 <text x="0" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="NFM18">
+<pin name="IN" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="-2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="94" curve="-106.260205"/>
+<wire x1="0" y1="0.635" x2="-1.905" y2="0.635" width="0.1524" layer="94" curve="-106.260205"/>
+<wire x1="0" y1="-0.635" x2="1.905" y2="-0.635" width="0.1524" layer="94" curve="-106.260205"/>
+<wire x1="0" y1="-0.635" x2="-1.905" y2="-0.635" width="0.1524" layer="94" curve="-106.260205"/>
+<wire x1="-0.635" y1="0.9525" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="5.08" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.175" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -781,6 +799,23 @@ H/X - Cut-off Frequency&lt;br&gt;
 </technologies>
 </device>
 <device name="ST157X1C3D" package="EFI0603">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NFM18" prefix="Z">
+<gates>
+<gate name="G$1" symbol="NFM18" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PC104R1C3" package="EFI0603">
 <connects>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="IN" pad="1"/>
