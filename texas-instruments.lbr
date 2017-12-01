@@ -1850,7 +1850,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <text x="-2.286" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="2.286" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
 </package>
-<package name="SOT23-5L">
+<package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
 package type OT</description>
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
@@ -10340,6 +10340,83 @@ protection</text>
 <text x="0" y="30.48" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="27.94" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
+<symbol name="74ALVCH16244">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="Y0" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="A0" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="OE" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="A1" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="A3" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="Y1" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="Y2" x="12.7" y="0" length="short" direction="in" rot="R180"/>
+<pin name="Y3" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="GND@1" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="74ALVCH16244_PWR">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="Y0" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="A0" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="OE" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="A1" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="A3" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="Y1" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="Y2" x="12.7" y="0" length="short" direction="in" rot="R180"/>
+<pin name="Y3" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="LMC7215">
+<pin name="IN+" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="IN-" x="-7.62" y="2.54" visible="pad" length="short" direction="in" function="dot"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<text x="10.16" y="-5.08" size="1.27" layer="95" rot="MR180" align="center">&gt;NAME</text>
+<text x="10.16" y="-7.62" size="1.27" layer="96" rot="MR180" align="center">&gt;VALUE</text>
+<text x="-1.27" y="0" size="1.27" layer="94" align="center">Comp.</text>
+<pin name="V+" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="1.016" y="3.048" size="1.27" layer="94" font="vector" align="center">+</text>
+<text x="1.016" y="-3.048" size="1.27" layer="94" font="vector" align="center">-</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS7233" prefix="DA">
@@ -12409,7 +12486,7 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 <gate name="G$1" symbol="SN65LVDS1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DBVR" package="SOT23-5L">
+<device name="DBVR" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="!OUT" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -12421,7 +12498,7 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DBVT" package="SOT23-5L">
+<device name="DBVT" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="!OUT" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -12452,7 +12529,7 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 <gate name="G$1" symbol="SN65LVDS2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DBVR" package="SOT23-5L">
+<device name="DBVR" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="!IN" pad="4"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -12464,7 +12541,7 @@ Source: tm4c1294ncpdt_ra0_tqfp_v0p1.bsdl</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DBVT" package="SOT23-5L">
+<device name="DBVT" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="!IN" pad="4"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -14720,6 +14797,25 @@ Source: tms320c6678_PG2p0_ac_1149p6.bsm</description>
 <connect gate="G$1" pin="SEL" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$1" pin="VISO" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMC7215" prefix="DA">
+<gates>
+<gate name="G$1" symbol="LMC7215" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IM5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="2"/>
+<connect gate="G$1" pin="V-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
