@@ -1533,6 +1533,58 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="-1.625" y1="-2" x2="-2" y2="-1.625" width="0.1" layer="51"/>
 <circle x="-1.5" y="-1.5" radius="0.176775" width="0" layer="51"/>
 </package>
+<package name="TSSOP8">
+<description>&lt;b&gt;Plastic Small Outline&lt;/b&gt;</description>
+<wire x1="-2.15" y1="-1.4" x2="2.15" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="-1.4" x2="2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="1.4" x2="-2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="1.4" x2="-2.15" y2="-1.4" width="0.2032" layer="21"/>
+<circle x="-1.625" y="0.65" radius="0.325" width="0" layer="21"/>
+<smd name="1" x="-2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="2" x="-2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="3" x="-2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="4" x="-2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="5" x="2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="6" x="2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="7" x="2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="8" x="2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<text x="0" y="0.635" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<rectangle x1="-3.2" y1="0.85" x2="-2.2" y2="1.1" layer="51"/>
+<rectangle x1="-3.2" y1="0.2" x2="-2.2" y2="0.45" layer="51"/>
+<rectangle x1="-3.2" y1="-0.45" x2="-2.2" y2="-0.2" layer="51"/>
+<rectangle x1="-3.2" y1="-1.1" x2="-2.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-1.1" x2="3.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-0.45" x2="3.2" y2="-0.2" layer="51"/>
+<rectangle x1="2.2" y1="0.2" x2="3.2" y2="0.45" layer="51"/>
+<rectangle x1="2.2" y1="0.85" x2="3.2" y2="1.1" layer="51"/>
+</package>
+<package name="MSOP8">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt; Grid .65mm&lt;p&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<text x="-1.905" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2558">
@@ -1850,7 +1902,7 @@ Switch with PHYs
 <text x="0" y="10.16" size="2.54" layer="94" align="center">KZS8873</text>
 </symbol>
 <symbol name="KSZ8895">
-<pin name="MDI-XDIS" x="60.96" y="66.04" length="short" direction="in" rot="R180"/>
+<pin name="MDI-XDIS" x="60.96" y="71.12" length="short" direction="in" rot="R180"/>
 <pin name="GNDA" x="-33.02" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDAR" x="-17.78" y="81.28" length="short" direction="pwr" rot="R270"/>
 <pin name="RXP1" x="-60.96" y="53.34" length="short" direction="in"/>
@@ -1866,7 +1918,7 @@ Switch with PHYs
 <pin name="TXM2" x="-60.96" y="22.86" length="short" direction="out"/>
 <pin name="VDDAR@1" x="-15.24" y="81.28" length="short" direction="pwr" rot="R270"/>
 <pin name="GNDA@3" x="-25.4" y="-81.28" length="short" direction="pwr" rot="R90"/>
-<pin name="ISET" x="60.96" y="63.5" length="short" direction="pas" rot="R180"/>
+<pin name="ISET" x="60.96" y="66.04" length="short" direction="pas" rot="R180"/>
 <pin name="VDDAT@1" x="-5.08" y="81.28" length="short" direction="pwr" rot="R270"/>
 <pin name="RXP3" x="-60.96" y="2.54" length="short" direction="in"/>
 <pin name="RXM3" x="-60.96" y="5.08" length="short" direction="in"/>
@@ -1896,46 +1948,46 @@ Switch with PHYs
 <pin name="NC@5" x="22.86" y="-81.28" length="short" direction="nc" rot="R90"/>
 <pin name="NC@6" x="25.4" y="-81.28" length="short" direction="nc" rot="R90"/>
 <pin name="PWRDN_N" x="-60.96" y="76.2" length="short" direction="in"/>
-<pin name="INTR_N" x="60.96" y="73.66" length="short" direction="out" rot="R180"/>
+<pin name="INTR_N" x="60.96" y="76.2" length="short" direction="out" rot="R180"/>
 <pin name="GNDD" x="-7.62" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDC" x="15.24" y="81.28" length="short" direction="pwr" rot="R270"/>
-<pin name="PMTXEN" x="60.96" y="-27.94" length="short" direction="in" rot="R180"/>
-<pin name="PMTXD3" x="60.96" y="-25.4" length="short" direction="in" rot="R180"/>
-<pin name="PMTXD2" x="60.96" y="-22.86" length="short" direction="in" rot="R180"/>
-<pin name="PMTXD1" x="60.96" y="-20.32" length="short" direction="in" rot="R180"/>
-<pin name="PMTXD0" x="60.96" y="-17.78" length="short" direction="in" rot="R180"/>
-<pin name="PMTXER" x="60.96" y="-15.24" length="short" direction="in" rot="R180"/>
-<pin name="PMTXC" x="60.96" y="-10.16" length="short" rot="R180"/>
+<pin name="PMTXEN" x="60.96" y="-35.56" length="short" direction="in" rot="R180"/>
+<pin name="PMTXD3" x="60.96" y="-33.02" length="short" direction="in" rot="R180"/>
+<pin name="PMTXD2" x="60.96" y="-30.48" length="short" direction="in" rot="R180"/>
+<pin name="PMTXD1" x="60.96" y="-27.94" length="short" direction="in" rot="R180"/>
+<pin name="PMTXD0" x="60.96" y="-25.4" length="short" direction="in" rot="R180"/>
+<pin name="PMTXER" x="60.96" y="-22.86" length="short" direction="in" rot="R180"/>
+<pin name="PMTXC" x="60.96" y="-20.32" length="short" rot="R180"/>
 <pin name="GNDD@1" x="-5.08" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDIO" x="5.08" y="81.28" length="short" direction="pwr" rot="R270"/>
-<pin name="PMRXC" x="60.96" y="-7.62" length="short" rot="R180"/>
-<pin name="PMRXDV" x="60.96" y="-2.54" length="short" rot="R180"/>
-<pin name="PMRXD3" x="60.96" y="0" length="short" rot="R180"/>
-<pin name="PMRXD2" x="60.96" y="2.54" length="short" rot="R180"/>
-<pin name="PMRXD1" x="60.96" y="5.08" length="short" rot="R180"/>
-<pin name="PMRXD0" x="60.96" y="7.62" length="short" rot="R180"/>
-<pin name="PMRXER" x="60.96" y="10.16" length="short" rot="R180"/>
-<pin name="PCRS" x="60.96" y="15.24" length="short" rot="R180"/>
-<pin name="PCOL" x="60.96" y="17.78" length="short" rot="R180"/>
+<pin name="PMRXC" x="60.96" y="-17.78" length="short" rot="R180"/>
+<pin name="PMRXDV" x="60.96" y="-15.24" length="short" rot="R180"/>
+<pin name="PMRXD3" x="60.96" y="-12.7" length="short" rot="R180"/>
+<pin name="PMRXD2" x="60.96" y="-10.16" length="short" rot="R180"/>
+<pin name="PMRXD1" x="60.96" y="-7.62" length="short" rot="R180"/>
+<pin name="PMRXD0" x="60.96" y="-5.08" length="short" rot="R180"/>
+<pin name="PMRXER" x="60.96" y="-2.54" length="short" rot="R180"/>
+<pin name="PCRS" x="60.96" y="0" length="short" rot="R180"/>
+<pin name="PCOL" x="60.96" y="2.54" length="short" rot="R180"/>
 <pin name="SMTXEN" x="60.96" y="-76.2" length="short" direction="in" rot="R180"/>
 <pin name="SMTXD3" x="60.96" y="-73.66" length="short" direction="in" rot="R180"/>
 <pin name="SMTXD2" x="60.96" y="-71.12" length="short" direction="in" rot="R180"/>
 <pin name="SMTXD1" x="60.96" y="-68.58" length="short" direction="in" rot="R180"/>
 <pin name="SMTXD0" x="60.96" y="-66.04" length="short" direction="in" rot="R180"/>
 <pin name="SMTXER" x="60.96" y="-63.5" length="short" direction="in" rot="R180"/>
-<pin name="SMTXC" x="60.96" y="-58.42" length="short" rot="R180"/>
+<pin name="SMTXC" x="60.96" y="-60.96" length="short" rot="R180"/>
 <pin name="GNDD@2" x="-2.54" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDIO@1" x="7.62" y="81.28" length="short" direction="pwr" rot="R270"/>
-<pin name="SMRXC" x="60.96" y="-55.88" length="short" rot="R180"/>
-<pin name="SMRXDV" x="60.96" y="-50.8" length="short" rot="R180"/>
-<pin name="SMRXD3" x="60.96" y="-48.26" length="short" rot="R180"/>
-<pin name="SMRXD2" x="60.96" y="-45.72" length="short" rot="R180"/>
-<pin name="SMRXD1" x="60.96" y="-43.18" length="short" rot="R180"/>
-<pin name="SMRXD0" x="60.96" y="-40.64" length="short" rot="R180"/>
-<pin name="SCOL" x="60.96" y="-33.02" length="short" rot="R180"/>
-<pin name="SCRS" x="60.96" y="-35.56" length="short" rot="R180"/>
-<pin name="SCONF1" x="60.96" y="55.88" length="short" direction="in" rot="R180"/>
-<pin name="SCONF0" x="60.96" y="58.42" length="short" direction="in" rot="R180"/>
+<pin name="SMRXC" x="60.96" y="-58.42" length="short" rot="R180"/>
+<pin name="SMRXDV" x="60.96" y="-55.88" length="short" rot="R180"/>
+<pin name="SMRXD3" x="60.96" y="-53.34" length="short" rot="R180"/>
+<pin name="SMRXD2" x="60.96" y="-50.8" length="short" rot="R180"/>
+<pin name="SMRXD1" x="60.96" y="-48.26" length="short" rot="R180"/>
+<pin name="SMRXD0" x="60.96" y="-45.72" length="short" rot="R180"/>
+<pin name="SCOL" x="60.96" y="-40.64" length="short" rot="R180"/>
+<pin name="SCRS" x="60.96" y="-43.18" length="short" rot="R180"/>
+<pin name="SCONF1" x="60.96" y="48.26" length="short" direction="in" rot="R180"/>
+<pin name="SCONF0" x="60.96" y="55.88" length="short" direction="in" rot="R180"/>
 <pin name="GNDD@3" x="0" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDC@1" x="17.78" y="81.28" length="short" direction="pwr" rot="R270"/>
 <pin name="LED5_2" x="-60.96" y="-66.04" length="short" direction="out"/>
@@ -1955,15 +2007,15 @@ Switch with PHYs
 <pin name="LED1_2" x="-60.96" y="35.56" length="short" direction="out"/>
 <pin name="LED1_1" x="-60.96" y="38.1" length="short" direction="out"/>
 <pin name="LED1_0" x="-60.96" y="40.64" length="short" direction="out"/>
-<pin name="MDC" x="60.96" y="27.94" length="short" direction="out" rot="R180"/>
-<pin name="MDIO" x="60.96" y="30.48" length="short" direction="out" rot="R180"/>
-<pin name="SPIQ" x="60.96" y="35.56" length="short" direction="out" rot="R180"/>
-<pin name="SPIC/SCL" x="60.96" y="38.1" length="short" direction="in" rot="R180"/>
-<pin name="SSPID/SDA" x="60.96" y="40.64" length="short" direction="in" rot="R180"/>
-<pin name="SPIS_N" x="60.96" y="43.18" length="short" direction="in" rot="R180"/>
-<pin name="PS1" x="60.96" y="48.26" length="short" direction="in" rot="R180"/>
-<pin name="PS0" x="60.96" y="50.8" length="short" direction="in" rot="R180"/>
-<pin name="RST_N" x="60.96" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="MDC" x="60.96" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="MDIO" x="60.96" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="SPIQ" x="60.96" y="20.32" length="short" direction="out" rot="R180"/>
+<pin name="SPIC/SCL" x="60.96" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="SSPID/SDA" x="60.96" y="25.4" length="short" direction="in" rot="R180"/>
+<pin name="SPIS_N" x="60.96" y="27.94" length="short" direction="in" rot="R180"/>
+<pin name="PS1" x="60.96" y="33.02" length="short" direction="in" rot="R180"/>
+<pin name="PS0" x="60.96" y="40.64" length="short" direction="in" rot="R180"/>
+<pin name="RST_N" x="60.96" y="7.62" length="short" direction="in" rot="R180"/>
 <pin name="GNDD@5" x="5.08" y="-81.28" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDC@2" x="20.32" y="81.28" length="short" direction="pwr" rot="R270"/>
 <pin name="TESTEN" x="-60.96" y="68.58" length="short" direction="nc"/>
@@ -2013,24 +2065,24 @@ Switch with PHYs
 <text x="-38.1" y="-30.48" size="1.9304" layer="94" rot="R90" align="center">PHY4</text>
 <text x="-38.1" y="-55.88" size="1.9304" layer="94" rot="R90" align="center">PHY5</text>
 <wire x1="58.42" y1="-78.74" x2="40.64" y2="-78.74" width="0.254" layer="94"/>
-<wire x1="58.42" y1="-30.48" x2="58.42" y2="-78.74" width="0.254" layer="94"/>
-<wire x1="40.64" y1="-78.74" x2="40.64" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-30.48" x2="35.56" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-38.1" x2="58.42" y2="-78.74" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-78.74" x2="40.64" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-38.1" x2="35.56" y2="-60.96" width="0.254" layer="94"/>
 <wire x1="35.56" y1="-60.96" x2="35.56" y2="-78.74" width="0.254" layer="94"/>
 <wire x1="35.56" y1="-78.74" x2="40.64" y2="-78.74" width="0.254" layer="94"/>
-<text x="38.1" y="-55.88" size="1.9304" layer="94" rot="R90" align="center">SW MII</text>
-<wire x1="40.64" y1="-30.48" x2="58.42" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="58.42" y1="-30.48" x2="58.42" y2="20.32" width="0.254" layer="94"/>
-<wire x1="58.42" y1="20.32" x2="40.64" y2="20.32" width="0.254" layer="94"/>
-<wire x1="40.64" y1="20.32" x2="40.64" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="40.64" y1="-30.48" x2="35.56" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-30.48" x2="35.56" y2="20.32" width="0.254" layer="94"/>
-<wire x1="35.56" y1="20.32" x2="40.64" y2="20.32" width="0.254" layer="94"/>
-<text x="38.1" y="-5.08" size="1.9304" layer="94" rot="R90" align="center">PHY MII</text>
-<wire x1="58.42" y1="78.74" x2="58.42" y2="20.32" width="0.254" layer="94"/>
+<text x="38.1" y="-58.42" size="1.9304" layer="94" rot="R90" align="center">SW MII</text>
+<wire x1="40.64" y1="-38.1" x2="58.42" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-38.1" x2="58.42" y2="5.08" width="0.254" layer="94"/>
+<wire x1="58.42" y1="5.08" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-38.1" x2="35.56" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-38.1" x2="35.56" y2="5.08" width="0.254" layer="94"/>
+<wire x1="35.56" y1="5.08" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<text x="38.1" y="-17.78" size="1.9304" layer="94" rot="R90" align="center">PHY MII</text>
+<wire x1="58.42" y1="78.74" x2="58.42" y2="5.08" width="0.254" layer="94"/>
 <wire x1="58.42" y1="78.74" x2="40.64" y2="78.74" width="0.254" layer="94"/>
-<wire x1="40.64" y1="78.74" x2="40.64" y2="20.32" width="0.254" layer="94"/>
-<wire x1="35.56" y1="20.32" x2="35.56" y2="60.96" width="0.254" layer="94"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="60.96" width="0.254" layer="94"/>
 <wire x1="35.56" y1="60.96" x2="35.56" y2="78.74" width="0.254" layer="94"/>
 <wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.254" layer="94"/>
 <text x="38.1" y="48.26" size="1.9304" layer="94" rot="R90" align="center">CONFIG</text>
@@ -2068,7 +2120,7 @@ Switch with PHYs
 10/100 Managed
 Switch with PHYs
 </text>
-<text x="0" y="25.4" size="3.302" layer="94" align="center">KZS8895</text>
+<text x="0" y="25.4" size="3.302" layer="94" align="center">KSZ8895</text>
 <pin name="VDDAT@0" x="-7.62" y="81.28" length="short" direction="pwr" rot="R270"/>
 </symbol>
 <symbol name="LAN8720">
@@ -2135,6 +2187,31 @@ Switch with PHYs
 <text x="0" y="30.48" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <text x="-2.54" y="0" size="1.778" layer="94" rot="R90" align="center">Ethernet PHY</text>
 <text x="2.54" y="0" size="1.778" layer="94" rot="R90" align="center">10/100 MBit</text>
+</symbol>
+<symbol name="93AA46A">
+<pin name="CS" x="-17.78" y="5.08" length="short" direction="in" function="dot"/>
+<pin name="CLK" x="-17.78" y="2.54" length="short" direction="in" function="clk"/>
+<pin name="DI" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="DO" x="-17.78" y="-2.54" length="short" direction="out"/>
+<pin name="VCC" x="17.78" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="NC" x="17.78" y="2.54" length="short" direction="nc" rot="R180"/>
+<pin name="ORG" x="17.78" y="0" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="94" align="center">128x8</text>
+<text x="0" y="-2.54" size="1.27" layer="94" align="center">64x16</text>
+<text x="0" y="5.08" size="1.27" layer="94" align="center">EEPROM</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3258,6 +3335,43 @@ Source: KSZ8895.txt</description>
 <connect gate="G$1" pin="VDDIO" pad="9"/>
 <connect gate="G$1" pin="XTAL1/CLKIN" pad="5"/>
 <connect gate="G$1" pin="XTAL2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="93AA46" prefix="DD">
+<gates>
+<gate name="G$1" symbol="93AA46A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CT-I/ST" package="TSSOP8">
+<connects>
+<connect gate="G$1" pin="CLK" pad="2"/>
+<connect gate="G$1" pin="CS" pad="1"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="NC" pad="7"/>
+<connect gate="G$1" pin="ORG" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C-I/MS" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="CLK" pad="2"/>
+<connect gate="G$1" pin="CS" pad="1"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="NC" pad="7"/>
+<connect gate="G$1" pin="ORG" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
