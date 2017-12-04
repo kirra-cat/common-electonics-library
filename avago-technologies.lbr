@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -357,6 +357,24 @@
 </technologies>
 </device>
 <device name="-BLK" package="SC70-6L">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 5"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABA-31563" prefix="DA">
+<gates>
+<gate name="G$1" symbol="AMPLIFIER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TR1G" package="SC70-6L">
 <connects>
 <connect gate="G$1" pin="GND" pad="1 2 5"/>
 <connect gate="G$1" pin="IN" pad="3"/>
